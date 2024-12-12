@@ -1,0 +1,32 @@
+[
+{
+  "directory": "D:/CodingShit/ChatServer/build/common",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe  @CMakeFiles/networking.dir/includes_CXX.rsp -std=gnu++17 -o CMakeFiles\\networking.dir\\networking.cpp.obj -c D:\\CodingShit\\ChatServer\\common\\networking.cpp",
+  "file": "D:/CodingShit/ChatServer/common/networking.cpp",
+  "output": "common/CMakeFiles/networking.dir/networking.cpp.obj"
+},
+{
+  "directory": "D:/CodingShit/ChatServer/build/server",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe  @CMakeFiles/server.dir/includes_CXX.rsp -std=gnu++17 -o CMakeFiles\\server.dir\\main.cpp.obj -c D:\\CodingShit\\ChatServer\\server\\main.cpp",
+  "file": "D:/CodingShit/ChatServer/server/main.cpp",
+  "output": "server/CMakeFiles/server.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/CodingShit/ChatServer/build/server",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe  @CMakeFiles/server.dir/includes_CXX.rsp -std=gnu++17 -o CMakeFiles\\server.dir\\server.cpp.obj -c D:\\CodingShit\\ChatServer\\server\\server.cpp",
+  "file": "D:/CodingShit/ChatServer/server/server.cpp",
+  "output": "server/CMakeFiles/server.dir/server.cpp.obj"
+},
+{
+  "directory": "D:/CodingShit/ChatServer/build/client",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe  @CMakeFiles/client.dir/includes_CXX.rsp -std=gnu++17 -o CMakeFiles\\client.dir\\main.cpp.obj -c D:\\CodingShit\\ChatServer\\client\\main.cpp",
+  "file": "D:/CodingShit/ChatServer/client/main.cpp",
+  "output": "client/CMakeFiles/client.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/CodingShit/ChatServer/build/client",
+  "command": "C:\\msys64\\ucrt64\\bin\\c++.exe  @CMakeFiles/client.dir/includes_CXX.rsp -std=gnu++17 -o CMakeFiles\\client.dir\\client.cpp.obj -c D:\\CodingShit\\ChatServer\\client\\client.cpp",
+  "file": "D:/CodingShit/ChatServer/client/client.cpp",
+  "output": "client/CMakeFiles/client.dir/client.cpp.obj"
+}
+]

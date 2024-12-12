@@ -1,0 +1,52 @@
+#define ASIO_STANDALONE
+#include <asio.hpp>
+#include <iostream>
+#include <thread>
+#include <string>
+
+using asio::ip::tcp;
+
+void readFromServer(tcp::socket& socket)
+{
+	try 
+	{
+		for (;;)
+		{
+			char buffer[1024];
+			std::size_t length = socket.read_some(asio::buffer(buffer));
+			std::cout << "[Server]: " << std::string(buffer, length) << '\n';
+		}
+	}
+	catch (const std::exception& e)
+	{
+		std::cout << "Disconnected from server. MESSAGE: " << e.what() << '\n';
+	}
+}
+
+int main() 
+{
+	try 
+	{
+		asio::io_context context;
+		tcp::socket socket(context);
+		socket.connect(tcp::endpoint(asio::ip::make_address("127.0.0.1"), 12345));
+
+		std::thread reader(readFromServer, std::ref(socket));
+
+		for (;;)
+		{
+			std::string message;
+			std::getline(std::cin, message);
+			asio::write(socket, asio::buffer(message));
+		}
+
+		reader.join();
+	}
+	catch (const std::exception& e) 
+	{
+		std::cerr << "ERROR: " << e.what() << '\n';
+	}
+ 
+    	return 0;
+}
+
