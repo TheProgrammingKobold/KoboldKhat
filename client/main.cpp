@@ -2,6 +2,8 @@
 
 int main()
 {
+	std::cout << "Please type the user name you'd like to use before connecting to the server!!\n";
+
 	std::string username;
 	std::getline(std::cin, username);
 

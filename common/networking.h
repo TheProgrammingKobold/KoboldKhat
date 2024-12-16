@@ -20,6 +20,20 @@ struct ClientSession
 {
 	std::shared_ptr<asio::ip::tcp::socket> socket;
 	std::string username;
+
+	bool tryToSendMessage(const std::string& message)
+	{
+		try 
+		{
+			asio::write(*this->socket, asio::buffer(message));
+			return true;
+		}
+		catch (const std::exception& e) 
+		{
+			std::cerr << "ERROR: Failed to send message to client '" + this->username + "'\nMessage Reads: " + e.what() + '\n';
+			return false;
+		}
+	}
 };
 
 class Server 
@@ -45,13 +59,8 @@ public:
 		{
 			if (excludeSocket && client->socket == excludeSocket) continue;
 
-			try 
+			if (!client->tryToSendMessage(message))
 			{
-				asio::write(*client->socket, asio::buffer(message));	
-			}
-			catch (const std::exception& e) 
-			{
-				std::cerr << "Broadcast error: " << e.what() << '\n';
 				removeClient(client);
 			}
 		}
@@ -139,7 +148,8 @@ private:
 					if (client->username.empty())
 					{
 						client->username = message;
-						std::cout << "New Client Username: " << client->username << '\n'; 
+						std::cout << "New Client Username: " << client->username << '\n';
+						broadcastMessage("'" + client->username + "' has joined!!");
 					}
 					else
 					{
@@ -155,6 +165,11 @@ private:
 
 	void removeClient(std::shared_ptr<ClientSession> client)
 	{
+		if (!client->username.empty())
+		{
+			broadcastMessage("'" + client->username + "' has disconnected!!", client->socket);
+		}
+
 		std::lock_guard<std::mutex> lock(m_clientsMutex);
 
 		if (client->socket->is_open())

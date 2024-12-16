@@ -18,4 +18,3 @@ cmake --build . --target client
 
 cd ..
 
-pause
