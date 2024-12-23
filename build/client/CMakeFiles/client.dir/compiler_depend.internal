@@ -425,6 +425,7 @@ client/CMakeFiles/client.dir/main.cpp.obj
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/xsaveoptintrin.h
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/xsavesintrin.h
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/xtestintrin.h
+ D:/CodingShit/ChatServer/common/client.h
  D:/CodingShit/ChatServer/common/depend/asio.hpp
  D:/CodingShit/ChatServer/common/depend/asio/any_completion_executor.hpp
  D:/CodingShit/ChatServer/common/depend/asio/any_completion_handler.hpp
@@ -902,4 +903,5 @@ client/CMakeFiles/client.dir/main.cpp.obj
  D:/CodingShit/ChatServer/common/depend/asio/write.hpp
  D:/CodingShit/ChatServer/common/depend/asio/write_at.hpp
  D:/CodingShit/ChatServer/common/networking.h
+ D:/CodingShit/ChatServer/common/server.h
 

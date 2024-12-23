@@ -423,6 +423,7 @@ client/CMakeFiles/client.dir/main.cpp.obj: D:/CodingShit/ChatServer/client/main.
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/xsaveoptintrin.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/xsavesintrin.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/xtestintrin.h \
+  D:/CodingShit/ChatServer/common/client.h \
   D:/CodingShit/ChatServer/common/depend/asio.hpp \
   D:/CodingShit/ChatServer/common/depend/asio/any_completion_executor.hpp \
   D:/CodingShit/ChatServer/common/depend/asio/any_completion_handler.hpp \
@@ -899,7 +900,8 @@ client/CMakeFiles/client.dir/main.cpp.obj: D:/CodingShit/ChatServer/client/main.
   D:/CodingShit/ChatServer/common/depend/asio/writable_pipe.hpp \
   D:/CodingShit/ChatServer/common/depend/asio/write.hpp \
   D:/CodingShit/ChatServer/common/depend/asio/write_at.hpp \
-  D:/CodingShit/ChatServer/common/networking.h
+  D:/CodingShit/ChatServer/common/networking.h \
+  D:/CodingShit/ChatServer/common/server.h
 
 
 C:/msys64/ucrt64/include/c++/14.1.0/backward/auto_ptr.h:
@@ -1111,6 +1113,8 @@ C:/msys64/ucrt64/include/c++/14.1.0/backward/binders.h:
 D:/CodingShit/ChatServer/common/depend/asio/buffered_read_stream.hpp:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/algorithmfwd.h:
+
+D:/CodingShit/ChatServer/common/client.h:
 
 D:/CodingShit/ChatServer/common/depend/asio/buffered_read_stream_fwd.hpp:
 
@@ -1778,9 +1782,9 @@ C:/msys64/ucrt64/include/poppack.h:
 
 D:/CodingShit/ChatServer/common/depend/asio/detail/consuming_buffers.hpp:
 
-C:/msys64/ucrt64/include/processtopologyapi.h:
-
 D:/CodingShit/ChatServer/common/depend/asio/detail/fd_set_adapter.hpp:
+
+C:/msys64/ucrt64/include/processtopologyapi.h:
 
 D:/CodingShit/ChatServer/common/depend/asio/basic_waitable_timer.hpp:
 
@@ -2697,3 +2701,5 @@ D:/CodingShit/ChatServer/common/depend/asio/windows/basic_random_access_handle.h
 D:/CodingShit/ChatServer/common/depend/asio/windows/overlapped_handle.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/windows/stream_handle.hpp:
+
+D:/CodingShit/ChatServer/common/server.h:

@@ -420,6 +420,7 @@ server/CMakeFiles/server.dir/main.cpp.obj: D:/CodingShit/ChatServer/server/main.
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/xsaveoptintrin.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/xsavesintrin.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/xtestintrin.h \
+  D:/CodingShit/ChatServer/common/client.h \
   D:/CodingShit/ChatServer/common/depend/asio.hpp \
   D:/CodingShit/ChatServer/common/depend/asio/any_completion_executor.hpp \
   D:/CodingShit/ChatServer/common/depend/asio/any_completion_handler.hpp \
@@ -896,7 +897,8 @@ server/CMakeFiles/server.dir/main.cpp.obj: D:/CodingShit/ChatServer/server/main.
   D:/CodingShit/ChatServer/common/depend/asio/writable_pipe.hpp \
   D:/CodingShit/ChatServer/common/depend/asio/write.hpp \
   D:/CodingShit/ChatServer/common/depend/asio/write_at.hpp \
-  D:/CodingShit/ChatServer/common/networking.h
+  D:/CodingShit/ChatServer/common/networking.h \
+  D:/CodingShit/ChatServer/common/server.h
 
 server/CMakeFiles/server.dir/server.cpp.obj: D:/CodingShit/ChatServer/server/server.cpp \
   D:/CodingShit/ChatServer/server/server.h
@@ -1032,8 +1034,6 @@ C:/msys64/ucrt64/include/assert.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator.h:
 
-D:/CodingShit/ChatServer/common/depend/asio/detail/functional.hpp:
-
 D:/CodingShit/ChatServer/common/depend/asio/impl/prepend.hpp:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/memoryfwd.h:
@@ -1103,6 +1103,8 @@ C:/msys64/ucrt64/include/c++/14.1.0/backward/binders.h:
 D:/CodingShit/ChatServer/common/depend/asio/buffered_read_stream.hpp:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/algorithmfwd.h:
+
+D:/CodingShit/ChatServer/common/client.h:
 
 D:/CodingShit/ChatServer/common/depend/asio/buffered_read_stream_fwd.hpp:
 
@@ -2228,6 +2230,8 @@ D:/CodingShit/ChatServer/common/depend/asio/detail/executor_op.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/detail/fenced_block.hpp:
 
+D:/CodingShit/ChatServer/common/depend/asio/detail/functional.hpp:
+
 D:/CodingShit/ChatServer/common/depend/asio/detail/future.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/ip/impl/address.ipp:
@@ -2695,5 +2699,7 @@ D:/CodingShit/ChatServer/common/depend/asio/windows/basic_random_access_handle.h
 D:/CodingShit/ChatServer/common/depend/asio/windows/overlapped_handle.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/windows/stream_handle.hpp:
+
+D:/CodingShit/ChatServer/common/server.h:
 
 D:/CodingShit/ChatServer/server/server.cpp:

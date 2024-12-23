@@ -4,7 +4,10 @@ setlocal enabledelayedexpansion
 set BUILD_DIR=build
 set COMPILE_COMMANDS=compile_commands.json
 
-if not exist "%BUILD_DIR%" (
+if exist "%BUILD_DIR%" (
+	echo Deleting preexisting build directory...
+	del "%BUILD_DIR%"
+) else (
 	mkdir "%BUILD_DIR%"
 )
 
