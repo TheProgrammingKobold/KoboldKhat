@@ -1,6 +1,7 @@
 server/CMakeFiles/server.dir/main.cpp.obj: \
  D:\CodingShit\ChatServer\server\main.cpp \
  D:/CodingShit/ChatServer/common/networking.h \
+ D:/CodingShit/ChatServer/common/server.h \
  C:/msys64/ucrt64/include/windows.h C:/msys64/ucrt64/include/_mingw.h \
  C:/msys64/ucrt64/include/_mingw_mac.h \
  C:/msys64/ucrt64/include/_mingw_secapi.h \
@@ -993,4 +994,5 @@ server/CMakeFiles/server.dir/main.cpp.obj: \
  D:/CodingShit/ChatServer/common/depend/asio/write.hpp \
  D:/CodingShit/ChatServer/common/depend/asio/write_at.hpp \
  D:/CodingShit/ChatServer/common/depend/asio/impl/write_at.hpp \
- C:/msys64/ucrt64/include/c++/14.1.0/iostream
+ C:/msys64/ucrt64/include/c++/14.1.0/iostream \
+ D:/CodingShit/ChatServer/common/client.h

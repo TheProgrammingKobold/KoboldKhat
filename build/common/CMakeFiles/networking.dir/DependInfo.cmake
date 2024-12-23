@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/CodingShit/ChatServer/common/networking.cpp" "common/CMakeFiles/networking.dir/networking.cpp.obj" "gcc" "common/CMakeFiles/networking.dir/networking.cpp.obj.d"
+  "D:/CodingShit/ChatServer/common/client.cpp" "common/CMakeFiles/networking.dir/client.cpp.obj" "gcc" "common/CMakeFiles/networking.dir/client.cpp.obj.d"
+  "D:/CodingShit/ChatServer/common/server.cpp" "common/CMakeFiles/networking.dir/server.cpp.obj" "gcc" "common/CMakeFiles/networking.dir/server.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

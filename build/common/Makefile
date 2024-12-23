@@ -129,29 +129,53 @@ networking/fast:
 	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f common\CMakeFiles\networking.dir\build.make common/CMakeFiles/networking.dir/build
 .PHONY : networking/fast
 
-networking.obj: networking.cpp.obj
-.PHONY : networking.obj
+client.obj: client.cpp.obj
+.PHONY : client.obj
 
 # target to build an object file
-networking.cpp.obj:
-	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f common\CMakeFiles\networking.dir\build.make common/CMakeFiles/networking.dir/networking.cpp.obj
-.PHONY : networking.cpp.obj
+client.cpp.obj:
+	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f common\CMakeFiles\networking.dir\build.make common/CMakeFiles/networking.dir/client.cpp.obj
+.PHONY : client.cpp.obj
 
-networking.i: networking.cpp.i
-.PHONY : networking.i
+client.i: client.cpp.i
+.PHONY : client.i
 
 # target to preprocess a source file
-networking.cpp.i:
-	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f common\CMakeFiles\networking.dir\build.make common/CMakeFiles/networking.dir/networking.cpp.i
-.PHONY : networking.cpp.i
+client.cpp.i:
+	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f common\CMakeFiles\networking.dir\build.make common/CMakeFiles/networking.dir/client.cpp.i
+.PHONY : client.cpp.i
 
-networking.s: networking.cpp.s
-.PHONY : networking.s
+client.s: client.cpp.s
+.PHONY : client.s
 
 # target to generate assembly for a file
-networking.cpp.s:
-	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f common\CMakeFiles\networking.dir\build.make common/CMakeFiles/networking.dir/networking.cpp.s
-.PHONY : networking.cpp.s
+client.cpp.s:
+	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f common\CMakeFiles\networking.dir\build.make common/CMakeFiles/networking.dir/client.cpp.s
+.PHONY : client.cpp.s
+
+server.obj: server.cpp.obj
+.PHONY : server.obj
+
+# target to build an object file
+server.cpp.obj:
+	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f common\CMakeFiles\networking.dir\build.make common/CMakeFiles/networking.dir/server.cpp.obj
+.PHONY : server.cpp.obj
+
+server.i: server.cpp.i
+.PHONY : server.i
+
+# target to preprocess a source file
+server.cpp.i:
+	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f common\CMakeFiles\networking.dir\build.make common/CMakeFiles/networking.dir/server.cpp.i
+.PHONY : server.cpp.i
+
+server.s: server.cpp.s
+.PHONY : server.s
+
+# target to generate assembly for a file
+server.cpp.s:
+	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f common\CMakeFiles\networking.dir\build.make common/CMakeFiles/networking.dir/server.cpp.s
+.PHONY : server.cpp.s
 
 # Help Target
 help:
@@ -162,9 +186,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... networking
-	@echo ... networking.obj
-	@echo ... networking.i
-	@echo ... networking.s
+	@echo ... client.obj
+	@echo ... client.i
+	@echo ... client.s
+	@echo ... server.obj
+	@echo ... server.i
+	@echo ... server.s
 .PHONY : help
 
 
