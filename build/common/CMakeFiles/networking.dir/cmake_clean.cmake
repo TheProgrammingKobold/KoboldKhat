@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/networking.dir/client.cpp.obj"
-  "CMakeFiles/networking.dir/client.cpp.obj.d"
-  "CMakeFiles/networking.dir/server.cpp.obj"
-  "CMakeFiles/networking.dir/server.cpp.obj.d"
+  "CMakeFiles/networking.dir/client.cpp.o"
+  "CMakeFiles/networking.dir/client.cpp.o.d"
+  "CMakeFiles/networking.dir/server.cpp.o"
+  "CMakeFiles/networking.dir/server.cpp.o.d"
   "libnetworking.a"
   "libnetworking.pdb"
 )
