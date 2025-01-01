@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/server.dir/main.cpp.obj"
   "CMakeFiles/server.dir/main.cpp.obj.d"
-  "CMakeFiles/server.dir/server.cpp.obj"
-  "CMakeFiles/server.dir/server.cpp.obj.d"
   "libserver.dll.a"
   "server.exe"
   "server.exe.manifest"

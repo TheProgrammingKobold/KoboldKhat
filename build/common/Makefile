@@ -129,6 +129,30 @@ networking/fast:
 	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f common\CMakeFiles\networking.dir\build.make common/CMakeFiles/networking.dir/build
 .PHONY : networking/fast
 
+Logging.obj: Logging.cpp.obj
+.PHONY : Logging.obj
+
+# target to build an object file
+Logging.cpp.obj:
+	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f common\CMakeFiles\networking.dir\build.make common/CMakeFiles/networking.dir/Logging.cpp.obj
+.PHONY : Logging.cpp.obj
+
+Logging.i: Logging.cpp.i
+.PHONY : Logging.i
+
+# target to preprocess a source file
+Logging.cpp.i:
+	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f common\CMakeFiles\networking.dir\build.make common/CMakeFiles/networking.dir/Logging.cpp.i
+.PHONY : Logging.cpp.i
+
+Logging.s: Logging.cpp.s
+.PHONY : Logging.s
+
+# target to generate assembly for a file
+Logging.cpp.s:
+	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f common\CMakeFiles\networking.dir\build.make common/CMakeFiles/networking.dir/Logging.cpp.s
+.PHONY : Logging.cpp.s
+
 client.obj: client.cpp.obj
 .PHONY : client.obj
 
@@ -186,6 +210,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... networking
+	@echo ... Logging.obj
+	@echo ... Logging.i
+	@echo ... Logging.s
 	@echo ... client.obj
 	@echo ... client.i
 	@echo ... client.s

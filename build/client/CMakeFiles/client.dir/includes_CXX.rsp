@@ -1,1 +1,1 @@
--ID:/CodingShit/ChatServer/common/ws2_32 -ID:/CodingShit/ChatServer/common -ID:/CodingShit/ChatServer/common/depend
+-ID:/CodingShit/ChatServer/client/depend/GLAD -ID:/CodingShit/ChatServer/client/depend/IMGUI -ID:/CodingShit/ChatServer/common/ws2_32 -ID:/CodingShit/ChatServer/common -ID:/CodingShit/ChatServer/common/depend -isystem D:/CodingShit/ChatServer/client/depend/GLFW

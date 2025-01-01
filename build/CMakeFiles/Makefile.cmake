@@ -98,6 +98,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.30/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake"
   "C:/Program Files/CMake/share/cmake-3.30/Modules/Compiler/zOS-C-DetermineCompiler.cmake"
   "C:/Program Files/CMake/share/cmake-3.30/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
+  "C:/Program Files/CMake/share/cmake-3.30/Modules/FindOpenGL.cmake"
+  "C:/Program Files/CMake/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake"
+  "C:/Program Files/CMake/share/cmake-3.30/Modules/FindPackageMessage.cmake"
   "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake"
   "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake"
   "C:/Program Files/CMake/share/cmake-3.30/Modules/Platform/Windows-Determine-CXX.cmake"
@@ -144,5 +147,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "common/CMakeFiles/networking.dir/DependInfo.cmake"
   "server/CMakeFiles/server.dir/DependInfo.cmake"
+  "client/CMakeFiles/glad.dir/DependInfo.cmake"
+  "client/CMakeFiles/imgui.dir/DependInfo.cmake"
   "client/CMakeFiles/client.dir/DependInfo.cmake"
   )

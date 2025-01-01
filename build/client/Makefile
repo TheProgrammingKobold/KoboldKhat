@@ -116,6 +116,34 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+client/CMakeFiles/glad.dir/rule:
+	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 client/CMakeFiles/glad.dir/rule
+.PHONY : client/CMakeFiles/glad.dir/rule
+
+# Convenience name for target.
+glad: client/CMakeFiles/glad.dir/rule
+.PHONY : glad
+
+# fast build rule for target.
+glad/fast:
+	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f client\CMakeFiles\glad.dir\build.make client/CMakeFiles/glad.dir/build
+.PHONY : glad/fast
+
+# Convenience name for target.
+client/CMakeFiles/imgui.dir/rule:
+	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 client/CMakeFiles/imgui.dir/rule
+.PHONY : client/CMakeFiles/imgui.dir/rule
+
+# Convenience name for target.
+imgui: client/CMakeFiles/imgui.dir/rule
+.PHONY : imgui
+
+# fast build rule for target.
+imgui/fast:
+	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f client\CMakeFiles\imgui.dir\build.make client/CMakeFiles/imgui.dir/build
+.PHONY : imgui/fast
+
+# Convenience name for target.
 client/CMakeFiles/client.dir/rule:
 	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 client/CMakeFiles/client.dir/rule
 .PHONY : client/CMakeFiles/client.dir/rule
@@ -129,29 +157,197 @@ client/fast:
 	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f client\CMakeFiles\client.dir\build.make client/CMakeFiles/client.dir/build
 .PHONY : client/fast
 
-client.obj: client.cpp.obj
-.PHONY : client.obj
+depend/GLAD/src/glad.obj: depend/GLAD/src/glad.c.obj
+.PHONY : depend/GLAD/src/glad.obj
 
 # target to build an object file
-client.cpp.obj:
-	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f client\CMakeFiles\client.dir\build.make client/CMakeFiles/client.dir/client.cpp.obj
-.PHONY : client.cpp.obj
+depend/GLAD/src/glad.c.obj:
+	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f client\CMakeFiles\glad.dir\build.make client/CMakeFiles/glad.dir/depend/GLAD/src/glad.c.obj
+.PHONY : depend/GLAD/src/glad.c.obj
 
-client.i: client.cpp.i
-.PHONY : client.i
+depend/GLAD/src/glad.i: depend/GLAD/src/glad.c.i
+.PHONY : depend/GLAD/src/glad.i
 
 # target to preprocess a source file
-client.cpp.i:
-	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f client\CMakeFiles\client.dir\build.make client/CMakeFiles/client.dir/client.cpp.i
-.PHONY : client.cpp.i
+depend/GLAD/src/glad.c.i:
+	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f client\CMakeFiles\glad.dir\build.make client/CMakeFiles/glad.dir/depend/GLAD/src/glad.c.i
+.PHONY : depend/GLAD/src/glad.c.i
 
-client.s: client.cpp.s
-.PHONY : client.s
+depend/GLAD/src/glad.s: depend/GLAD/src/glad.c.s
+.PHONY : depend/GLAD/src/glad.s
 
 # target to generate assembly for a file
-client.cpp.s:
-	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f client\CMakeFiles\client.dir\build.make client/CMakeFiles/client.dir/client.cpp.s
-.PHONY : client.cpp.s
+depend/GLAD/src/glad.c.s:
+	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f client\CMakeFiles\glad.dir\build.make client/CMakeFiles/glad.dir/depend/GLAD/src/glad.c.s
+.PHONY : depend/GLAD/src/glad.c.s
+
+depend/IMGUI/imgui.obj: depend/IMGUI/imgui.cpp.obj
+.PHONY : depend/IMGUI/imgui.obj
+
+# target to build an object file
+depend/IMGUI/imgui.cpp.obj:
+	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f client\CMakeFiles\imgui.dir\build.make client/CMakeFiles/imgui.dir/depend/IMGUI/imgui.cpp.obj
+.PHONY : depend/IMGUI/imgui.cpp.obj
+
+depend/IMGUI/imgui.i: depend/IMGUI/imgui.cpp.i
+.PHONY : depend/IMGUI/imgui.i
+
+# target to preprocess a source file
+depend/IMGUI/imgui.cpp.i:
+	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f client\CMakeFiles\imgui.dir\build.make client/CMakeFiles/imgui.dir/depend/IMGUI/imgui.cpp.i
+.PHONY : depend/IMGUI/imgui.cpp.i
+
+depend/IMGUI/imgui.s: depend/IMGUI/imgui.cpp.s
+.PHONY : depend/IMGUI/imgui.s
+
+# target to generate assembly for a file
+depend/IMGUI/imgui.cpp.s:
+	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f client\CMakeFiles\imgui.dir\build.make client/CMakeFiles/imgui.dir/depend/IMGUI/imgui.cpp.s
+.PHONY : depend/IMGUI/imgui.cpp.s
+
+depend/IMGUI/imgui_demo.obj: depend/IMGUI/imgui_demo.cpp.obj
+.PHONY : depend/IMGUI/imgui_demo.obj
+
+# target to build an object file
+depend/IMGUI/imgui_demo.cpp.obj:
+	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f client\CMakeFiles\imgui.dir\build.make client/CMakeFiles/imgui.dir/depend/IMGUI/imgui_demo.cpp.obj
+.PHONY : depend/IMGUI/imgui_demo.cpp.obj
+
+depend/IMGUI/imgui_demo.i: depend/IMGUI/imgui_demo.cpp.i
+.PHONY : depend/IMGUI/imgui_demo.i
+
+# target to preprocess a source file
+depend/IMGUI/imgui_demo.cpp.i:
+	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f client\CMakeFiles\imgui.dir\build.make client/CMakeFiles/imgui.dir/depend/IMGUI/imgui_demo.cpp.i
+.PHONY : depend/IMGUI/imgui_demo.cpp.i
+
+depend/IMGUI/imgui_demo.s: depend/IMGUI/imgui_demo.cpp.s
+.PHONY : depend/IMGUI/imgui_demo.s
+
+# target to generate assembly for a file
+depend/IMGUI/imgui_demo.cpp.s:
+	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f client\CMakeFiles\imgui.dir\build.make client/CMakeFiles/imgui.dir/depend/IMGUI/imgui_demo.cpp.s
+.PHONY : depend/IMGUI/imgui_demo.cpp.s
+
+depend/IMGUI/imgui_draw.obj: depend/IMGUI/imgui_draw.cpp.obj
+.PHONY : depend/IMGUI/imgui_draw.obj
+
+# target to build an object file
+depend/IMGUI/imgui_draw.cpp.obj:
+	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f client\CMakeFiles\imgui.dir\build.make client/CMakeFiles/imgui.dir/depend/IMGUI/imgui_draw.cpp.obj
+.PHONY : depend/IMGUI/imgui_draw.cpp.obj
+
+depend/IMGUI/imgui_draw.i: depend/IMGUI/imgui_draw.cpp.i
+.PHONY : depend/IMGUI/imgui_draw.i
+
+# target to preprocess a source file
+depend/IMGUI/imgui_draw.cpp.i:
+	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f client\CMakeFiles\imgui.dir\build.make client/CMakeFiles/imgui.dir/depend/IMGUI/imgui_draw.cpp.i
+.PHONY : depend/IMGUI/imgui_draw.cpp.i
+
+depend/IMGUI/imgui_draw.s: depend/IMGUI/imgui_draw.cpp.s
+.PHONY : depend/IMGUI/imgui_draw.s
+
+# target to generate assembly for a file
+depend/IMGUI/imgui_draw.cpp.s:
+	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f client\CMakeFiles\imgui.dir\build.make client/CMakeFiles/imgui.dir/depend/IMGUI/imgui_draw.cpp.s
+.PHONY : depend/IMGUI/imgui_draw.cpp.s
+
+depend/IMGUI/imgui_impl_glfw.obj: depend/IMGUI/imgui_impl_glfw.cpp.obj
+.PHONY : depend/IMGUI/imgui_impl_glfw.obj
+
+# target to build an object file
+depend/IMGUI/imgui_impl_glfw.cpp.obj:
+	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f client\CMakeFiles\imgui.dir\build.make client/CMakeFiles/imgui.dir/depend/IMGUI/imgui_impl_glfw.cpp.obj
+.PHONY : depend/IMGUI/imgui_impl_glfw.cpp.obj
+
+depend/IMGUI/imgui_impl_glfw.i: depend/IMGUI/imgui_impl_glfw.cpp.i
+.PHONY : depend/IMGUI/imgui_impl_glfw.i
+
+# target to preprocess a source file
+depend/IMGUI/imgui_impl_glfw.cpp.i:
+	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f client\CMakeFiles\imgui.dir\build.make client/CMakeFiles/imgui.dir/depend/IMGUI/imgui_impl_glfw.cpp.i
+.PHONY : depend/IMGUI/imgui_impl_glfw.cpp.i
+
+depend/IMGUI/imgui_impl_glfw.s: depend/IMGUI/imgui_impl_glfw.cpp.s
+.PHONY : depend/IMGUI/imgui_impl_glfw.s
+
+# target to generate assembly for a file
+depend/IMGUI/imgui_impl_glfw.cpp.s:
+	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f client\CMakeFiles\imgui.dir\build.make client/CMakeFiles/imgui.dir/depend/IMGUI/imgui_impl_glfw.cpp.s
+.PHONY : depend/IMGUI/imgui_impl_glfw.cpp.s
+
+depend/IMGUI/imgui_impl_opengl3.obj: depend/IMGUI/imgui_impl_opengl3.cpp.obj
+.PHONY : depend/IMGUI/imgui_impl_opengl3.obj
+
+# target to build an object file
+depend/IMGUI/imgui_impl_opengl3.cpp.obj:
+	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f client\CMakeFiles\imgui.dir\build.make client/CMakeFiles/imgui.dir/depend/IMGUI/imgui_impl_opengl3.cpp.obj
+.PHONY : depend/IMGUI/imgui_impl_opengl3.cpp.obj
+
+depend/IMGUI/imgui_impl_opengl3.i: depend/IMGUI/imgui_impl_opengl3.cpp.i
+.PHONY : depend/IMGUI/imgui_impl_opengl3.i
+
+# target to preprocess a source file
+depend/IMGUI/imgui_impl_opengl3.cpp.i:
+	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f client\CMakeFiles\imgui.dir\build.make client/CMakeFiles/imgui.dir/depend/IMGUI/imgui_impl_opengl3.cpp.i
+.PHONY : depend/IMGUI/imgui_impl_opengl3.cpp.i
+
+depend/IMGUI/imgui_impl_opengl3.s: depend/IMGUI/imgui_impl_opengl3.cpp.s
+.PHONY : depend/IMGUI/imgui_impl_opengl3.s
+
+# target to generate assembly for a file
+depend/IMGUI/imgui_impl_opengl3.cpp.s:
+	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f client\CMakeFiles\imgui.dir\build.make client/CMakeFiles/imgui.dir/depend/IMGUI/imgui_impl_opengl3.cpp.s
+.PHONY : depend/IMGUI/imgui_impl_opengl3.cpp.s
+
+depend/IMGUI/imgui_tables.obj: depend/IMGUI/imgui_tables.cpp.obj
+.PHONY : depend/IMGUI/imgui_tables.obj
+
+# target to build an object file
+depend/IMGUI/imgui_tables.cpp.obj:
+	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f client\CMakeFiles\imgui.dir\build.make client/CMakeFiles/imgui.dir/depend/IMGUI/imgui_tables.cpp.obj
+.PHONY : depend/IMGUI/imgui_tables.cpp.obj
+
+depend/IMGUI/imgui_tables.i: depend/IMGUI/imgui_tables.cpp.i
+.PHONY : depend/IMGUI/imgui_tables.i
+
+# target to preprocess a source file
+depend/IMGUI/imgui_tables.cpp.i:
+	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f client\CMakeFiles\imgui.dir\build.make client/CMakeFiles/imgui.dir/depend/IMGUI/imgui_tables.cpp.i
+.PHONY : depend/IMGUI/imgui_tables.cpp.i
+
+depend/IMGUI/imgui_tables.s: depend/IMGUI/imgui_tables.cpp.s
+.PHONY : depend/IMGUI/imgui_tables.s
+
+# target to generate assembly for a file
+depend/IMGUI/imgui_tables.cpp.s:
+	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f client\CMakeFiles\imgui.dir\build.make client/CMakeFiles/imgui.dir/depend/IMGUI/imgui_tables.cpp.s
+.PHONY : depend/IMGUI/imgui_tables.cpp.s
+
+depend/IMGUI/imgui_widgets.obj: depend/IMGUI/imgui_widgets.cpp.obj
+.PHONY : depend/IMGUI/imgui_widgets.obj
+
+# target to build an object file
+depend/IMGUI/imgui_widgets.cpp.obj:
+	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f client\CMakeFiles\imgui.dir\build.make client/CMakeFiles/imgui.dir/depend/IMGUI/imgui_widgets.cpp.obj
+.PHONY : depend/IMGUI/imgui_widgets.cpp.obj
+
+depend/IMGUI/imgui_widgets.i: depend/IMGUI/imgui_widgets.cpp.i
+.PHONY : depend/IMGUI/imgui_widgets.i
+
+# target to preprocess a source file
+depend/IMGUI/imgui_widgets.cpp.i:
+	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f client\CMakeFiles\imgui.dir\build.make client/CMakeFiles/imgui.dir/depend/IMGUI/imgui_widgets.cpp.i
+.PHONY : depend/IMGUI/imgui_widgets.cpp.i
+
+depend/IMGUI/imgui_widgets.s: depend/IMGUI/imgui_widgets.cpp.s
+.PHONY : depend/IMGUI/imgui_widgets.s
+
+# target to generate assembly for a file
+depend/IMGUI/imgui_widgets.cpp.s:
+	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f client\CMakeFiles\imgui.dir\build.make client/CMakeFiles/imgui.dir/depend/IMGUI/imgui_widgets.cpp.s
+.PHONY : depend/IMGUI/imgui_widgets.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -186,9 +382,32 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... client
-	@echo ... client.obj
-	@echo ... client.i
-	@echo ... client.s
+	@echo ... glad
+	@echo ... imgui
+	@echo ... depend/GLAD/src/glad.obj
+	@echo ... depend/GLAD/src/glad.i
+	@echo ... depend/GLAD/src/glad.s
+	@echo ... depend/IMGUI/imgui.obj
+	@echo ... depend/IMGUI/imgui.i
+	@echo ... depend/IMGUI/imgui.s
+	@echo ... depend/IMGUI/imgui_demo.obj
+	@echo ... depend/IMGUI/imgui_demo.i
+	@echo ... depend/IMGUI/imgui_demo.s
+	@echo ... depend/IMGUI/imgui_draw.obj
+	@echo ... depend/IMGUI/imgui_draw.i
+	@echo ... depend/IMGUI/imgui_draw.s
+	@echo ... depend/IMGUI/imgui_impl_glfw.obj
+	@echo ... depend/IMGUI/imgui_impl_glfw.i
+	@echo ... depend/IMGUI/imgui_impl_glfw.s
+	@echo ... depend/IMGUI/imgui_impl_opengl3.obj
+	@echo ... depend/IMGUI/imgui_impl_opengl3.i
+	@echo ... depend/IMGUI/imgui_impl_opengl3.s
+	@echo ... depend/IMGUI/imgui_tables.obj
+	@echo ... depend/IMGUI/imgui_tables.i
+	@echo ... depend/IMGUI/imgui_tables.s
+	@echo ... depend/IMGUI/imgui_widgets.obj
+	@echo ... depend/IMGUI/imgui_widgets.i
+	@echo ... depend/IMGUI/imgui_widgets.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

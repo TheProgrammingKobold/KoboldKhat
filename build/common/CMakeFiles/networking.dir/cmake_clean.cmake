@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/networking.dir/Logging.cpp.obj"
+  "CMakeFiles/networking.dir/Logging.cpp.obj.d"
   "CMakeFiles/networking.dir/client.cpp.obj"
   "CMakeFiles/networking.dir/client.cpp.obj.d"
   "CMakeFiles/networking.dir/server.cpp.obj"

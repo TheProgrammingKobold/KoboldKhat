@@ -1,5 +1,9 @@
 #include "server.h"
 
+#include "Logging.h"
+
+#include <nlohmann/json.hpp>
+
 Server::Server(asio::io_context& context, uint16_t port, size_t maxClients)
 	:m_context(context), m_acceptor(context, asio::ip::tcp::endpoint(asio::ip::tcp::v4(), port)), m_maxClients(maxClients), m_running(false)
 {
@@ -7,6 +11,8 @@ Server::Server(asio::io_context& context, uint16_t port, size_t maxClients)
 
 void Server::start()
 {
+	Log::Info("Server has started!!");
+
 	m_running = true;
 	acceptConnections();
 }
@@ -19,6 +25,7 @@ void Server::broadcastMessage(const std::string& message, std::shared_ptr<asio::
 	{
 		if (excludeSocket && client->socket == excludeSocket) continue;
 
+		// Here we try to send the message to the client, and if it fails, and error message will be printed and they'll be removed.
 		if (!client->tryToSendMessage(message))
 		{
 			removeClient(client);
@@ -53,7 +60,7 @@ void Server::acceptConnections()
 			{
 				if (ec)
 				{
-					std::cerr << "Accept error: " << ec.message() << '\n';
+					Log::Error("Accpet error: " + ec.message());
 					return;
 				}
 
@@ -61,7 +68,8 @@ void Server::acceptConnections()
 					std::lock_guard<std::mutex> lock(m_clientsMutex);
 					if (m_clients.size() >= m_maxClients)
 					{
-						std::cout << "Warning: Max clients reached, rejecting new connection...\n";
+						Log::Warning("Max Clients Reached, rejection new connections...");
+
 						newSocket->close();
 
 						acceptConnections();
@@ -79,7 +87,7 @@ void Server::acceptConnections()
 
 				std::string clientIP = newClient->socket->remote_endpoint().address().to_string();
 
-				std::cout << "Client '" << clientIP << "' connected!\n";
+				Log::Info("Client '" + clientIP + "' connected!");
 
 				readClientMessage(newClient);
 
@@ -96,26 +104,40 @@ void Server::readClientMessage(std::shared_ptr<ClientSession> client)
 			{
 				if (ec)
 				{
-					std::cout << "Client disconnected.\n";
+					Log::Info("Client disconnected");
 					removeClient(client);
 					return;
 				}
 
-				std::string message(buffer->data(), length);
+				std::string serializedMessage(buffer->data(), length);
 
-				if (client->username.empty())
+				if (!serializedMessage.empty() && serializedMessage.find_first_not_of(" \n\r\t") != std::string::npos)
 				{
-					client->username = message;
-					std::cout << "New Client Username: " << client->username << '\n';
-					broadcastMessage("'" + client->username + "' has joined!!");
+
+					nlohmann::json jsonMessage; 
+
+					try 
+					{
+
+						jsonMessage = nlohmann::json::parse(serializedMessage);
+						
+
+					}
+					catch (const std::exception& e)
+					{
+
+						std::string errorMessage = "Couldn't parse message: ";
+						errorMessage += e.what();
+						Log::Error(errorMessage);
+					}
+
+					// This might replace everything else so be prepared my young paduon
+					handleMessage(jsonMessage, client);
+
 				}
-				else
-				{
-					std::string fullMessage = client->username + ": " + message;
-					std::cout << "Received: " << fullMessage << '\n';
-					broadcastMessage(fullMessage, client->socket);
-				}
-					
+
+				
+				
 				readClientMessage(client);
 
 			});
@@ -123,9 +145,11 @@ void Server::readClientMessage(std::shared_ptr<ClientSession> client)
 
 void Server::removeClient(std::shared_ptr<ClientSession> client)
 {
+	std::string clientUsername = client->username;
+
 	if (!client->username.empty())
 	{
-		broadcastMessage("'" + client->username + "' has disconnected!!", client->socket);
+		broadcastMessage("'" + clientUsername + "' has disconnected!!", client->socket);
 	}
 
 	std::lock_guard<std::mutex> lock(m_clientsMutex);
@@ -141,6 +165,63 @@ void Server::removeClient(std::shared_ptr<ClientSession> client)
 		m_clients.erase(it);
 	}
 
-	std::cout << "Client removed.\n";
+	Log::Info("Client '" + clientUsername + "' removed.");
 
 }
+
+void Server::handleMessage(const nlohmann::json& jsonMessage, const std::shared_ptr<ClientSession>& client)
+{
+	std::string message = jsonMessage["message"];
+	std::string username = jsonMessage["username"];
+
+	if (message.rfind("/dm ", 0) == 0)
+	{
+		std::istringstream iss(message);
+		std::string command, recipient, dmMessage;
+		iss >> command >> recipient;
+		std::getline(iss, dmMessage);
+
+		if (!dmMessage.empty() && dmMessage[0] == ' ')
+		{
+			dmMessage.erase(0, 1);
+		}
+
+		std::lock_guard<std::mutex> lock(m_clientsMutex);
+
+		auto it = std::find_if(m_clients.begin(), m_clients.end(),
+				[&recipient](const std::shared_ptr<ClientSession>& client)
+				{
+					return client->username == recipient;
+				});
+
+		if (it != m_clients.end())
+		{
+			std::string fullMessage = "[DM From '" + client->username + "']: " + dmMessage;
+			(*it)->tryToSendMessage(fullMessage);
+			Log::Info("Dm sent from '" + client->username + "' to '" + (*it)->username + "' [Message]: " + dmMessage); 
+		}
+		else
+		{
+			client->tryToSendMessage("User '" + recipient + "' not found.");
+			Log::Info("Dm failed to send to '" + recipient + "' from '" + (*it)->username + "' because they were not found!");
+		}
+
+
+	}
+	else
+	{
+		if (client->username.empty())
+		{
+			client->username = username;
+			Log::Info("New Client Username: " + client->username);
+			broadcastMessage("'" + client->username + "' has joined!!");
+		}
+		else
+		{
+			std::string fullMessage = client->username + ": " + message;
+			Log::Info("Received: " + fullMessage);
+			broadcastMessage(fullMessage, client->socket);
+		}
+	}
+}
+
