@@ -1,5 +1,8 @@
 #include "client.h"
 
+#include <nlohmann/json.hpp>
+#include <iostream>
+
 Client::Client(asio::io_context& context, const std::string& serverAddress, uint16_t port, const std::string& username)
 	:m_context(context), m_serverAddress(serverAddress), m_port(port), m_username(username), m_connected(false)
 {
@@ -36,7 +39,13 @@ void Client::sendMessage(const std::string& message)
 
 	try 
 	{
-		asio::write(*m_socket, asio::buffer(message));	
+		nlohmann::json jsonMessage;
+		jsonMessage["username"] = m_username;
+		jsonMessage["message"] = message;
+
+		std::string serializedMessage = jsonMessage.dump();
+
+		asio::write(*m_socket, asio::buffer(serializedMessage));	
 	}
 	catch (const std::exception& e) 
 	{
@@ -75,6 +84,16 @@ void Client::readFromServer()
 			if (length > 0)
 			{
 				std::string message(buffer, length);
+
+				if (m_messageQueue.size() > 250)
+				{
+					std::cerr << "[WARNING]: Max messages reached in queue. Ignoring new messages until queue is cleared!\n";
+				}
+				else
+				{
+					m_messageQueue.push_back(message);
+				}
+
 				std::cout << "[Server]: " << message << '\n';
 			}
 		}

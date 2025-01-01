@@ -68,11 +68,26 @@ include common/CMakeFiles/networking.dir/progress.make
 # Include the compile flags for this target's objects.
 include common/CMakeFiles/networking.dir/flags.make
 
+common/CMakeFiles/networking.dir/Logging.cpp.obj: common/CMakeFiles/networking.dir/flags.make
+common/CMakeFiles/networking.dir/Logging.cpp.obj: common/CMakeFiles/networking.dir/includes_CXX.rsp
+common/CMakeFiles/networking.dir/Logging.cpp.obj: D:/CodingShit/ChatServer/common/Logging.cpp
+common/CMakeFiles/networking.dir/Logging.cpp.obj: common/CMakeFiles/networking.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CodingShit\ChatServer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object common/CMakeFiles/networking.dir/Logging.cpp.obj"
+	cd /d D:\CodingShit\ChatServer\build\common && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/networking.dir/Logging.cpp.obj -MF CMakeFiles\networking.dir\Logging.cpp.obj.d -o CMakeFiles\networking.dir\Logging.cpp.obj -c D:\CodingShit\ChatServer\common\Logging.cpp
+
+common/CMakeFiles/networking.dir/Logging.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/networking.dir/Logging.cpp.i"
+	cd /d D:\CodingShit\ChatServer\build\common && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CodingShit\ChatServer\common\Logging.cpp > CMakeFiles\networking.dir\Logging.cpp.i
+
+common/CMakeFiles/networking.dir/Logging.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/networking.dir/Logging.cpp.s"
+	cd /d D:\CodingShit\ChatServer\build\common && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CodingShit\ChatServer\common\Logging.cpp -o CMakeFiles\networking.dir\Logging.cpp.s
+
 common/CMakeFiles/networking.dir/client.cpp.obj: common/CMakeFiles/networking.dir/flags.make
 common/CMakeFiles/networking.dir/client.cpp.obj: common/CMakeFiles/networking.dir/includes_CXX.rsp
 common/CMakeFiles/networking.dir/client.cpp.obj: D:/CodingShit/ChatServer/common/client.cpp
 common/CMakeFiles/networking.dir/client.cpp.obj: common/CMakeFiles/networking.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CodingShit\ChatServer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object common/CMakeFiles/networking.dir/client.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CodingShit\ChatServer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object common/CMakeFiles/networking.dir/client.cpp.obj"
 	cd /d D:\CodingShit\ChatServer\build\common && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/networking.dir/client.cpp.obj -MF CMakeFiles\networking.dir\client.cpp.obj.d -o CMakeFiles\networking.dir\client.cpp.obj -c D:\CodingShit\ChatServer\common\client.cpp
 
 common/CMakeFiles/networking.dir/client.cpp.i: cmake_force
@@ -87,7 +102,7 @@ common/CMakeFiles/networking.dir/server.cpp.obj: common/CMakeFiles/networking.di
 common/CMakeFiles/networking.dir/server.cpp.obj: common/CMakeFiles/networking.dir/includes_CXX.rsp
 common/CMakeFiles/networking.dir/server.cpp.obj: D:/CodingShit/ChatServer/common/server.cpp
 common/CMakeFiles/networking.dir/server.cpp.obj: common/CMakeFiles/networking.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CodingShit\ChatServer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object common/CMakeFiles/networking.dir/server.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CodingShit\ChatServer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object common/CMakeFiles/networking.dir/server.cpp.obj"
 	cd /d D:\CodingShit\ChatServer\build\common && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT common/CMakeFiles/networking.dir/server.cpp.obj -MF CMakeFiles\networking.dir\server.cpp.obj.d -o CMakeFiles\networking.dir\server.cpp.obj -c D:\CodingShit\ChatServer\common\server.cpp
 
 common/CMakeFiles/networking.dir/server.cpp.i: cmake_force
@@ -100,17 +115,19 @@ common/CMakeFiles/networking.dir/server.cpp.s: cmake_force
 
 # Object files for target networking
 networking_OBJECTS = \
+"CMakeFiles/networking.dir/Logging.cpp.obj" \
 "CMakeFiles/networking.dir/client.cpp.obj" \
 "CMakeFiles/networking.dir/server.cpp.obj"
 
 # External object files for target networking
 networking_EXTERNAL_OBJECTS =
 
+common/libnetworking.a: common/CMakeFiles/networking.dir/Logging.cpp.obj
 common/libnetworking.a: common/CMakeFiles/networking.dir/client.cpp.obj
 common/libnetworking.a: common/CMakeFiles/networking.dir/server.cpp.obj
 common/libnetworking.a: common/CMakeFiles/networking.dir/build.make
 common/libnetworking.a: common/CMakeFiles/networking.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\CodingShit\ChatServer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libnetworking.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\CodingShit\ChatServer\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libnetworking.a"
 	cd /d D:\CodingShit\ChatServer\build\common && $(CMAKE_COMMAND) -P CMakeFiles\networking.dir\cmake_clean_target.cmake
 	cd /d D:\CodingShit\ChatServer\build\common && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\networking.dir\link.txt --verbose=$(VERBOSE)
 

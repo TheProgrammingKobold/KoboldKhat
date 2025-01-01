@@ -12,9 +12,9 @@
 
 #include <string>
 #include <memory>
-#include <vector>
-#include <mutex>
-#include <iostream>
+
+#include "tsqueue.hpp"
+
 
 class Client
 {
@@ -32,11 +32,17 @@ public:
 
 	bool isConnected() const;
 
+	bool isMessageQueueEmpty() { return m_messageQueue.empty(); }
+
+	std::string popMessageFromQueue() { return m_messageQueue.pop_front(); }
+
 private:
 
 	void readFromServer();
 
 private:
+
+	tsqueue<std::string> m_messageQueue;
 
 	asio::io_context& m_context;
 

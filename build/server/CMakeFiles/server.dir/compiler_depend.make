@@ -39,29 +39,44 @@ server/CMakeFiles/server.dir/main.cpp.obj: D:/CodingShit/ChatServer/server/main.
   C:/msys64/ucrt64/include/c++/14.1.0/bits/char_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/charconv.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/chrono.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/codecvt.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/concept_check.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/cpp_type_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/cxxabi_forced.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/cxxabi_init_exception.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/deque.tcc \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/enable_special_members.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/erase_if.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/exception.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/exception_defines.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/exception_ptr.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/forward_list.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/forward_list.tcc \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/fs_dir.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/fs_fwd.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/fs_ops.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/fs_path.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/functexcept.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/functional_hash.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/gslice.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/gslice_array.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/hash_bytes.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/hashtable.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/hashtable_policy.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/indirect_array.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/invoke.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/ios_base.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/istream.tcc \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/list.tcc \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/locale_classes.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/locale_classes.tcc \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/locale_conv.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/locale_facets.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/locale_facets.tcc \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/locale_facets_nonio.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/locale_facets_nonio.tcc \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/localefwd.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/mask_array.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/memory_resource.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/memoryfwd.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/move.h \
@@ -74,12 +89,15 @@ server/CMakeFiles/server.dir/main.cpp.obj: D:/CodingShit/ChatServer/server/main.
   C:/msys64/ucrt64/include/c++/14.1.0/bits/postypes.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/predefined_ops.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/ptr_traits.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/quoted_string.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/range_access.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/refwrap.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/requires_hosted.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/shared_ptr.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/shared_ptr_atomic.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/shared_ptr_base.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/slice_array.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/specfun.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/sstream.tcc \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/std_abs.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/std_function.h \
@@ -89,16 +107,21 @@ server/CMakeFiles/server.dir/main.cpp.obj: D:/CodingShit/ChatServer/server/main.
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_algobase.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_bvector.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_construct.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_deque.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_function.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_heap.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator_base_funcs.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator_base_types.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_list.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_map.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_multimap.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_numeric.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_pair.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_raw_storage_iter.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_relops.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_tempbuf.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_tree.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_uninitialized.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_vector.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/stream_iterator.h \
@@ -113,6 +136,10 @@ server/CMakeFiles/server.dir/main.cpp.obj: D:/CodingShit/ChatServer/server/main.
   C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator_args.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/utility.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/valarray_after.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/valarray_array.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/valarray_array.tcc \
+  C:/msys64/ucrt64/include/c++/14.1.0/bits/valarray_before.h \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/vector.tcc \
   C:/msys64/ucrt64/include/c++/14.1.0/bits/version.h \
   C:/msys64/ucrt64/include/c++/14.1.0/cassert \
@@ -121,6 +148,8 @@ server/CMakeFiles/server.dir/main.cpp.obj: D:/CodingShit/ChatServer/server/main.
   C:/msys64/ucrt64/include/c++/14.1.0/chrono \
   C:/msys64/ucrt64/include/c++/14.1.0/climits \
   C:/msys64/ucrt64/include/c++/14.1.0/clocale \
+  C:/msys64/ucrt64/include/c++/14.1.0/cmath \
+  C:/msys64/ucrt64/include/c++/14.1.0/codecvt \
   C:/msys64/ucrt64/include/c++/14.1.0/compare \
   C:/msys64/ucrt64/include/c++/14.1.0/concepts \
   C:/msys64/ucrt64/include/c++/14.1.0/condition_variable \
@@ -134,6 +163,7 @@ server/CMakeFiles/server.dir/main.cpp.obj: D:/CodingShit/ChatServer/server/main.
   C:/msys64/ucrt64/include/c++/14.1.0/cwctype \
   C:/msys64/ucrt64/include/c++/14.1.0/debug/assertions.h \
   C:/msys64/ucrt64/include/c++/14.1.0/debug/debug.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/deque \
   C:/msys64/ucrt64/include/c++/14.1.0/exception \
   C:/msys64/ucrt64/include/c++/14.1.0/ext/aligned_buffer.h \
   C:/msys64/ucrt64/include/c++/14.1.0/ext/alloc_traits.h \
@@ -142,9 +172,12 @@ server/CMakeFiles/server.dir/main.cpp.obj: D:/CodingShit/ChatServer/server/main.
   C:/msys64/ucrt64/include/c++/14.1.0/ext/numeric_traits.h \
   C:/msys64/ucrt64/include/c++/14.1.0/ext/string_conversions.h \
   C:/msys64/ucrt64/include/c++/14.1.0/ext/type_traits.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/filesystem \
+  C:/msys64/ucrt64/include/c++/14.1.0/forward_list \
   C:/msys64/ucrt64/include/c++/14.1.0/functional \
   C:/msys64/ucrt64/include/c++/14.1.0/future \
   C:/msys64/ucrt64/include/c++/14.1.0/initializer_list \
+  C:/msys64/ucrt64/include/c++/14.1.0/iomanip \
   C:/msys64/ucrt64/include/c++/14.1.0/ios \
   C:/msys64/ucrt64/include/c++/14.1.0/iosfwd \
   C:/msys64/ucrt64/include/c++/14.1.0/iostream \
@@ -152,13 +185,17 @@ server/CMakeFiles/server.dir/main.cpp.obj: D:/CodingShit/ChatServer/server/main.
   C:/msys64/ucrt64/include/c++/14.1.0/iterator \
   C:/msys64/ucrt64/include/c++/14.1.0/limits \
   C:/msys64/ucrt64/include/c++/14.1.0/list \
+  C:/msys64/ucrt64/include/c++/14.1.0/locale \
+  C:/msys64/ucrt64/include/c++/14.1.0/map \
   C:/msys64/ucrt64/include/c++/14.1.0/memory \
   C:/msys64/ucrt64/include/c++/14.1.0/mutex \
   C:/msys64/ucrt64/include/c++/14.1.0/new \
+  C:/msys64/ucrt64/include/c++/14.1.0/numeric \
   C:/msys64/ucrt64/include/c++/14.1.0/ostream \
   C:/msys64/ucrt64/include/c++/14.1.0/pstl/execution_defs.h \
   C:/msys64/ucrt64/include/c++/14.1.0/pstl/glue_algorithm_defs.h \
   C:/msys64/ucrt64/include/c++/14.1.0/pstl/glue_memory_defs.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/pstl/glue_numeric_defs.h \
   C:/msys64/ucrt64/include/c++/14.1.0/pstl/pstl_config.h \
   C:/msys64/ucrt64/include/c++/14.1.0/ratio \
   C:/msys64/ucrt64/include/c++/14.1.0/sstream \
@@ -168,11 +205,24 @@ server/CMakeFiles/server.dir/main.cpp.obj: D:/CodingShit/ChatServer/server/main.
   C:/msys64/ucrt64/include/c++/14.1.0/string \
   C:/msys64/ucrt64/include/c++/14.1.0/string_view \
   C:/msys64/ucrt64/include/c++/14.1.0/system_error \
+  C:/msys64/ucrt64/include/c++/14.1.0/tr1/bessel_function.tcc \
+  C:/msys64/ucrt64/include/c++/14.1.0/tr1/beta_function.tcc \
+  C:/msys64/ucrt64/include/c++/14.1.0/tr1/ell_integral.tcc \
+  C:/msys64/ucrt64/include/c++/14.1.0/tr1/exp_integral.tcc \
+  C:/msys64/ucrt64/include/c++/14.1.0/tr1/gamma.tcc \
+  C:/msys64/ucrt64/include/c++/14.1.0/tr1/hypergeometric.tcc \
+  C:/msys64/ucrt64/include/c++/14.1.0/tr1/legendre_function.tcc \
+  C:/msys64/ucrt64/include/c++/14.1.0/tr1/modified_bessel_func.tcc \
+  C:/msys64/ucrt64/include/c++/14.1.0/tr1/poly_hermite.tcc \
+  C:/msys64/ucrt64/include/c++/14.1.0/tr1/poly_laguerre.tcc \
+  C:/msys64/ucrt64/include/c++/14.1.0/tr1/riemann_zeta.tcc \
+  C:/msys64/ucrt64/include/c++/14.1.0/tr1/special_function_util.h \
   C:/msys64/ucrt64/include/c++/14.1.0/tuple \
   C:/msys64/ucrt64/include/c++/14.1.0/type_traits \
   C:/msys64/ucrt64/include/c++/14.1.0/typeinfo \
   C:/msys64/ucrt64/include/c++/14.1.0/unordered_map \
   C:/msys64/ucrt64/include/c++/14.1.0/utility \
+  C:/msys64/ucrt64/include/c++/14.1.0/valarray \
   C:/msys64/ucrt64/include/c++/14.1.0/vector \
   C:/msys64/ucrt64/include/c++/14.1.0/version \
   C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/atomic_word.h \
@@ -185,7 +235,9 @@ server/CMakeFiles/server.dir/main.cpp.obj: D:/CodingShit/ChatServer/server/main.
   C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/error_constants.h \
   C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/gthr-default.h \
   C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/gthr.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/messages_members.h \
   C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/time_members.h \
   C:/msys64/ucrt64/include/concurrencysal.h \
   C:/msys64/ucrt64/include/corecrt.h \
   C:/msys64/ucrt64/include/corecrt_startup.h \
@@ -217,6 +269,7 @@ server/CMakeFiles/server.dir/main.cpp.obj: D:/CodingShit/ChatServer/server/main.
   C:/msys64/ucrt64/include/limits.h \
   C:/msys64/ucrt64/include/locale.h \
   C:/msys64/ucrt64/include/malloc.h \
+  C:/msys64/ucrt64/include/math.h \
   C:/msys64/ucrt64/include/mcx.h \
   C:/msys64/ucrt64/include/memoryapi.h \
   C:/msys64/ucrt64/include/minwinbase.h \
@@ -897,11 +950,10 @@ server/CMakeFiles/server.dir/main.cpp.obj: D:/CodingShit/ChatServer/server/main.
   D:/CodingShit/ChatServer/common/depend/asio/writable_pipe.hpp \
   D:/CodingShit/ChatServer/common/depend/asio/write.hpp \
   D:/CodingShit/ChatServer/common/depend/asio/write_at.hpp \
+  D:/CodingShit/ChatServer/common/depend/nlohmann/json.hpp \
   D:/CodingShit/ChatServer/common/networking.h \
-  D:/CodingShit/ChatServer/common/server.h
-
-server/CMakeFiles/server.dir/server.cpp.obj: D:/CodingShit/ChatServer/server/server.cpp \
-  D:/CodingShit/ChatServer/server/server.h
+  D:/CodingShit/ChatServer/common/server.h \
+  D:/CodingShit/ChatServer/common/tsqueue.hpp
 
 
 D:/CodingShit/ChatServer/server/main.cpp:
@@ -918,6 +970,8 @@ C:/msys64/ucrt64/include/io.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/atomic_lockfree_defines.h:
 
+C:/msys64/ucrt64/include/c++/14.1.0/tr1/legendre_function.tcc:
+
 C:/msys64/ucrt64/include/bemapiset.h:
 
 C:/msys64/ucrt64/include/_bsd_types.h:
@@ -928,9 +982,9 @@ D:/CodingShit/ChatServer/common/depend/asio/is_read_buffered.hpp:
 
 C:/msys64/ucrt64/include/utilapiset.h:
 
-C:/msys64/ucrt64/include/c++/14.1.0/pstl/glue_algorithm_defs.h:
-
 D:/CodingShit/ChatServer/common/depend/asio/buffered_write_stream_fwd.hpp:
+
+C:/msys64/ucrt64/include/c++/14.1.0/pstl/glue_algorithm_defs.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/allocator.h:
 
@@ -980,9 +1034,9 @@ C:/msys64/ucrt64/include/_mingw_off_t.h:
 
 D:/CodingShit/ChatServer/common/depend/asio/detail/memory.hpp:
 
-C:/msys64/ucrt64/include/c++/14.1.0/debug/debug.h:
-
 D:/CodingShit/ChatServer/common/depend/asio/detail/chrono.hpp:
+
+C:/msys64/ucrt64/include/c++/14.1.0/debug/debug.h:
 
 D:/CodingShit/ChatServer/common/depend/asio/windows/overlapped_ptr.hpp:
 
@@ -990,25 +1044,13 @@ D:/CodingShit/ChatServer/common/depend/asio/detail/socket_select_interrupter.hpp
 
 C:/msys64/ucrt64/include/_mingw_stat64.h:
 
-D:/CodingShit/ChatServer/common/depend/asio/impl/buffered_read_stream.hpp:
-
-C:/msys64/ucrt64/include/c++/14.1.0/pstl/pstl_config.h:
-
-C:/msys64/ucrt64/include/c++/14.1.0/bits/istream.tcc:
-
 D:/CodingShit/ChatServer/common/depend/asio/detail/impl/resolver_service_base.ipp:
 
 C:/msys64/ucrt64/include/_mingw_unicode.h:
 
+C:/msys64/ucrt64/include/c++/14.1.0/bits/gslice_array.h:
+
 C:/msys64/ucrt64/include/_timeval.h:
-
-D:/CodingShit/ChatServer/common/depend/asio/time_traits.hpp:
-
-D:/CodingShit/ChatServer/common/depend/asio/detail/work_dispatcher.hpp:
-
-C:/msys64/ucrt64/include/c++/14.1.0/bits/memory_resource.h:
-
-C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h:
 
 D:/CodingShit/ChatServer/common/depend/asio/impl/read_at.hpp:
 
@@ -1034,10 +1076,6 @@ C:/msys64/ucrt64/include/assert.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator.h:
 
-D:/CodingShit/ChatServer/common/depend/asio/impl/prepend.hpp:
-
-C:/msys64/ucrt64/include/c++/14.1.0/bits/memoryfwd.h:
-
 C:/msys64/ucrt64/include/c++/14.1.0/bits/hash_bytes.h:
 
 C:/msys64/ucrt64/include/basetsd.h:
@@ -1051,14 +1089,6 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/waitpkgintrin.h:
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/xsaveintrin.h:
 
 C:/msys64/ucrt64/include/sal.h:
-
-D:/CodingShit/ChatServer/common/depend/asio/use_future.hpp:
-
-C:/msys64/ucrt64/include/c++/14.1.0/bits/list.tcc:
-
-C:/msys64/ucrt64/include/errhandlingapi.h:
-
-D:/CodingShit/ChatServer/common/depend/asio/detail/array.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/readable_pipe.hpp:
 
@@ -1082,12 +1112,6 @@ C:/msys64/ucrt64/include/c++/14.1.0/cstdlib:
 
 C:/msys64/ucrt64/include/c++/14.1.0/algorithm:
 
-C:/msys64/ucrt64/include/c++/14.1.0/bits/locale_classes.h:
-
-C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/os_defines.h:
-
-D:/CodingShit/ChatServer/common/depend/asio/basic_streambuf_fwd.hpp:
-
 C:/msys64/ucrt64/include/c++/14.1.0/bits/vector.tcc:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/stddef.h:
@@ -1098,17 +1122,19 @@ D:/CodingShit/ChatServer/common/depend/asio/ip/detail/endpoint.hpp:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bit:
 
-C:/msys64/ucrt64/include/c++/14.1.0/backward/binders.h:
+C:/msys64/ucrt64/include/c++/14.1.0/bits/quoted_string.h:
 
 D:/CodingShit/ChatServer/common/depend/asio/buffered_read_stream.hpp:
+
+C:/msys64/ucrt64/include/c++/14.1.0/backward/binders.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/deque.tcc:
+
+D:/CodingShit/ChatServer/common/depend/asio/buffered_read_stream_fwd.hpp:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/algorithmfwd.h:
 
 D:/CodingShit/ChatServer/common/client.h:
-
-D:/CodingShit/ChatServer/common/depend/asio/buffered_read_stream_fwd.hpp:
-
-C:/msys64/ucrt64/include/c++/14.1.0/bits/move.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/align.h:
 
@@ -1140,6 +1166,10 @@ C:/msys64/ucrt64/include/c++/14.1.0/bits/basic_ios.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/basic_ios.tcc:
 
+C:/msys64/ucrt64/include/c++/14.1.0/bits/mask_array.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/tr1/gamma.tcc:
+
 C:/msys64/ucrt64/include/c++/14.1.0/bits/hashtable.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/basic_string.tcc:
@@ -1162,9 +1192,19 @@ C:/msys64/ucrt64/include/c++/14.1.0/cerrno:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/chrono.h:
 
-D:/CodingShit/ChatServer/common/depend/asio/co_spawn.hpp:
+C:/msys64/ucrt64/include/c++/14.1.0/bits/forward_list.tcc:
 
-C:/msys64/ucrt64/include/c++/14.1.0/bits/locale_classes.tcc:
+C:/msys64/ucrt64/include/c++/14.1.0/bits/indirect_array.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/codecvt.h:
+
+C:/msys64/ucrt64/include/inaddr.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/fs_dir.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/ostream.tcc:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/mwaitintrin.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/concept_check.h:
 
@@ -1188,13 +1228,15 @@ C:/msys64/ucrt64/include/c++/14.1.0/bits/functexcept.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/cxxabi_forced.h:
 
+C:/msys64/ucrt64/include/c++/14.1.0/bits/forward_list.h:
+
 D:/CodingShit/ChatServer/common/depend/asio/detail/service_registry.hpp:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/cxxabi_init_exception.h:
 
-C:/msys64/ucrt64/include/c++/14.1.0/bits/locale_facets.h:
-
 C:/msys64/ucrt64/include/c++/14.1.0/bits/enable_special_members.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/locale_facets.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/exception_ptr.h:
 
@@ -1206,15 +1248,81 @@ C:/msys64/ucrt64/include/c++/14.1.0/bits/exception.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/exception_defines.h:
 
+C:/msys64/ucrt64/include/c++/14.1.0/tr1/bessel_function.tcc:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/fs_fwd.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/fs_ops.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/fs_path.h:
+
 C:/msys64/ucrt64/include/c++/14.1.0/bits/functional_hash.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/gslice.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/avx512ifmavlintrin.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/ios_base.h:
 
+D:/CodingShit/ChatServer/common/depend/asio/impl/buffered_read_stream.hpp:
+
+C:/msys64/ucrt64/include/c++/14.1.0/pstl/pstl_config.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/istream.tcc:
+
+D:/CodingShit/ChatServer/common/depend/asio/use_future.hpp:
+
+D:/CodingShit/ChatServer/common/depend/asio/detail/array.hpp:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/list.tcc:
+
+C:/msys64/ucrt64/include/errhandlingapi.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/locale_classes.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/os_defines.h:
+
+D:/CodingShit/ChatServer/common/depend/asio/basic_streambuf_fwd.hpp:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/locale_classes.tcc:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/locale_conv.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/locale_facets_nonio.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/cwchar:
+
+D:/CodingShit/ChatServer/common/depend/asio/detail/win_fd_set_adapter.hpp:
+
+C:/msys64/ucrt64/include/c++/14.1.0/cstdio:
+
+D:/CodingShit/ChatServer/common/depend/asio/ip/resolver_base.hpp:
+
+D:/CodingShit/ChatServer/common/depend/asio/impl/executor.hpp:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/bmiintrin.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/locale_facets_nonio.tcc:
+
+C:/msys64/ucrt64/include/ctype.h:
+
 D:/CodingShit/ChatServer/common/depend/asio/ip/address_v6_iterator.hpp:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/localefwd.h:
+
+D:/CodingShit/ChatServer/common/depend/asio/time_traits.hpp:
+
+D:/CodingShit/ChatServer/common/depend/asio/detail/work_dispatcher.hpp:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/memory_resource.h:
+
+C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h:
+
+D:/CodingShit/ChatServer/common/depend/asio/impl/prepend.hpp:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/memoryfwd.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/move.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/avx512bf16vlintrin.h:
 
@@ -1230,31 +1338,19 @@ D:/CodingShit/ChatServer/common/depend/asio/traits/connect_free.hpp:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/new_allocator.h:
 
-C:/msys64/ucrt64/include/c++/14.1.0/bits/node_handle.h:
-
-D:/CodingShit/ChatServer/common/depend/asio/defer.hpp:
-
 D:/CodingShit/ChatServer/common/depend/asio/read_at.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/dispatch.hpp:
 
 C:/msys64/ucrt64/include/c++/14.1.0/cctype:
 
-D:/CodingShit/ChatServer/common/depend/asio/impl/write.hpp:
+D:/CodingShit/ChatServer/common/depend/asio/defer.hpp:
 
-D:/CodingShit/ChatServer/common/depend/asio/buffered_write_stream.hpp:
-
-C:/msys64/ucrt64/include/c++/14.1.0/bits/ostream.tcc:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/mwaitintrin.h:
+C:/msys64/ucrt64/include/c++/14.1.0/bits/node_handle.h:
 
 D:/CodingShit/ChatServer/common/depend/asio/ip/basic_resolver_entry.hpp:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/ostream_insert.h:
-
-D:/CodingShit/ChatServer/common/depend/asio/io_context_strand.hpp:
-
-D:/CodingShit/ChatServer/common/depend/asio/deferred.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/impl/execution_context.hpp:
 
@@ -1274,23 +1370,21 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/avx512vp2intersectvli
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/predefined_ops.h:
 
-D:/CodingShit/ChatServer/common/depend/asio/detail/win_iocp_handle_write_op.hpp:
-
-D:/CodingShit/ChatServer/common/depend/asio/detail/call_stack.hpp:
-
 D:/CodingShit/ChatServer/common/depend/asio/high_resolution_timer.hpp:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/ptr_traits.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/range_access.h:
 
+C:/msys64/ucrt64/include/c++/14.1.0/bits/specfun.h:
+
 C:/msys64/ucrt64/include/c++/14.1.0/bits/refwrap.h:
 
 D:/CodingShit/ChatServer/common/depend/asio/system_timer.hpp:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/avx512vbmiintrin.h:
-
 D:/CodingShit/ChatServer/common/depend/asio/detail/chrono_time_traits.hpp:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/avx512vbmiintrin.h:
 
 D:/CodingShit/ChatServer/common/depend/asio/detail/impl/throw_error.ipp:
 
@@ -1307,6 +1401,8 @@ D:/CodingShit/ChatServer/common/depend/asio/detail/is_buffer_sequence.hpp:
 C:/msys64/ucrt64/include/corecrt_wstdlib.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/shared_ptr_base.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/slice_array.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/sstream.tcc:
 
@@ -1336,11 +1432,13 @@ D:/CodingShit/ChatServer/common/depend/asio/basic_writable_pipe.hpp:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_bvector.h:
 
-D:/CodingShit/ChatServer/common/depend/asio/buffered_stream.hpp:
-
 C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_construct.h:
 
 C:/msys64/ucrt64/include/sysinfoapi.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_deque.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/future:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_function.h:
 
@@ -1350,15 +1448,37 @@ D:/CodingShit/ChatServer/common/depend/asio/ip/tcp.hpp:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_heap.h:
 
+C:/msys64/ucrt64/include/c++/14.1.0/cmath:
+
 C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator_base_funcs.h:
 
-D:/CodingShit/ChatServer/common/depend/asio/detail/buffer_resize_guard.hpp:
-
 C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_iterator_base_types.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/vaesintrin.h:
+
+D:/CodingShit/ChatServer/common/depend/asio/traits/bulk_execute_member.hpp:
+
+D:/CodingShit/ChatServer/common/depend/asio/execution/set_value.hpp:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_map.h:
+
+D:/CodingShit/ChatServer/common/depend/asio/detail/deadline_timer_service.hpp:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_multimap.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/pstl/glue_numeric_defs.h:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/avx512vldqintrin.h:
+
+D:/CodingShit/ChatServer/common/depend/asio/detail/wrapped_handler.hpp:
+
+D:/CodingShit/ChatServer/common/depend/asio/detail/dependent_type.hpp:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_numeric.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_tempbuf.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_pair.h:
 
@@ -1380,13 +1500,9 @@ D:/CodingShit/ChatServer/common/depend/asio/detail/is_executor.hpp:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_relops.h:
 
-D:/CodingShit/ChatServer/common/depend/asio/detail/wrapped_handler.hpp:
+D:/CodingShit/ChatServer/common/depend/asio/detail/impl/win_iocp_io_context.ipp:
 
-C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_tempbuf.h:
-
-D:/CodingShit/ChatServer/common/depend/asio/detail/dependent_type.hpp:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/avx512vldqintrin.h:
+C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_tree.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/stl_vector.h:
 
@@ -1406,9 +1522,9 @@ C:/msys64/ucrt64/include/c++/14.1.0/bits/unique_lock.h:
 
 C:/msys64/ucrt64/include/profileapi.h:
 
-C:/msys64/ucrt64/include/c++/14.1.0/bits/unique_ptr.h:
-
 D:/CodingShit/ChatServer/common/depend/asio/detail/conditionally_enabled_mutex.hpp:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/unique_ptr.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/unordered_map.h:
 
@@ -1421,6 +1537,30 @@ C:/msys64/ucrt64/include/c++/14.1.0/bits/uses_allocator_args.h:
 D:/CodingShit/ChatServer/common/depend/asio/execution/connect.hpp:
 
 C:/msys64/ucrt64/include/c++/14.1.0/bits/utility.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/valarray_after.h:
+
+C:/msys64/ucrt64/include/qos.h:
+
+D:/CodingShit/ChatServer/common/depend/asio/detail/consuming_buffers.hpp:
+
+C:/msys64/ucrt64/include/poppack.h:
+
+D:/CodingShit/ChatServer/common/depend/asio/windows/basic_object_handle.hpp:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/valarray_array.h:
+
+D:/CodingShit/ChatServer/common/depend/asio/generic/raw_protocol.hpp:
+
+D:/CodingShit/ChatServer/common/depend/asio/detail/win_iocp_socket_send_op.hpp:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/valarray_array.tcc:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/wmmintrin.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/bits/valarray_before.h:
+
+C:/msys64/ucrt64/include/handleapi.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/cassert:
 
@@ -1441,6 +1581,8 @@ C:/msys64/ucrt64/include/c++/14.1.0/vector:
 C:/msys64/ucrt64/include/c++/14.1.0/clocale:
 
 C:/msys64/ucrt64/include/errno.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/codecvt:
 
 C:/msys64/ucrt64/include/c++/14.1.0/compare:
 
@@ -1464,12 +1606,6 @@ C:/msys64/ucrt64/include/c++/14.1.0/cstdint:
 
 C:/msys64/ucrt64/include/c++/14.1.0/cwctype:
 
-C:/msys64/ucrt64/include/c++/14.1.0/cwchar:
-
-D:/CodingShit/ChatServer/common/depend/asio/detail/win_fd_set_adapter.hpp:
-
-C:/msys64/ucrt64/include/c++/14.1.0/cstdio:
-
 C:/msys64/ucrt64/include/c++/14.1.0/cstring:
 
 C:/msys64/ucrt64/include/c++/14.1.0/ctime:
@@ -1482,23 +1618,29 @@ C:/msys64/ucrt64/include/c++/14.1.0/ext/concurrence.h:
 
 C:/msys64/ucrt64/include/driverspecs.h:
 
+D:/CodingShit/ChatServer/common/tsqueue.hpp:
+
+D:/CodingShit/ChatServer/common/depend/asio/prepend.hpp:
+
+C:/msys64/ucrt64/include/c++/14.1.0/deque:
+
 D:/CodingShit/ChatServer/common/depend/asio/detail/impl/select_reactor.ipp:
 
 C:/msys64/ucrt64/include/psdk_inc/_ip_types.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/exception:
 
+D:/CodingShit/ChatServer/common/depend/asio/basic_file.hpp:
+
 D:/CodingShit/ChatServer/common/depend/asio/multiple_exceptions.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/ip/basic_resolver.hpp:
 
+D:/CodingShit/ChatServer/common/depend/asio/detail/array_fwd.hpp:
+
 C:/msys64/ucrt64/include/c++/14.1.0/ext/aligned_buffer.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/ia32intrin.h:
-
-D:/CodingShit/ChatServer/common/depend/asio/detail/array_fwd.hpp:
-
-D:/CodingShit/ChatServer/common/depend/asio/basic_file.hpp:
 
 C:/msys64/ucrt64/include/c++/14.1.0/ext/alloc_traits.h:
 
@@ -1518,11 +1660,19 @@ C:/msys64/ucrt64/include/c++/14.1.0/ext/type_traits.h:
 
 D:/CodingShit/ChatServer/common/depend/asio/basic_socket_acceptor.hpp:
 
-C:/msys64/ucrt64/include/c++/14.1.0/future:
+C:/msys64/ucrt64/include/c++/14.1.0/filesystem:
+
+C:/msys64/ucrt64/include/corecrt_stdio_config.h:
+
+D:/CodingShit/ChatServer/common/depend/asio/impl/system_executor.hpp:
+
+C:/msys64/ucrt64/include/c++/14.1.0/forward_list:
 
 D:/CodingShit/ChatServer/common/depend/asio/detail/win_iocp_file_service.hpp:
 
 C:/msys64/ucrt64/include/c++/14.1.0/initializer_list:
+
+C:/msys64/ucrt64/include/c++/14.1.0/iomanip:
 
 D:/CodingShit/ChatServer/common/depend/asio/detail/impl/scheduler.ipp:
 
@@ -1540,8 +1690,6 @@ C:/msys64/ucrt64/include/c++/14.1.0/iostream:
 
 C:/msys64/ucrt64/include/c++/14.1.0/istream:
 
-D:/CodingShit/ChatServer/common/depend/asio/cancellation_signal.hpp:
-
 D:/CodingShit/ChatServer/common/depend/asio/query.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/execution/invocable_archetype.hpp:
@@ -1552,11 +1700,27 @@ D:/CodingShit/ChatServer/common/depend/asio/detail/thread_group.hpp:
 
 C:/msys64/ucrt64/include/c++/14.1.0/list:
 
+D:/CodingShit/ChatServer/common/depend/asio/detail/null_event.hpp:
+
+C:/msys64/ucrt64/include/c++/14.1.0/locale:
+
+D:/CodingShit/ChatServer/common/depend/asio/detail/win_iocp_socket_service_base.hpp:
+
+C:/msys64/ucrt64/include/c++/14.1.0/map:
+
+D:/CodingShit/ChatServer/common/depend/asio/associated_executor.hpp:
+
+C:/msys64/ucrt64/include/sdks/_mingw_ddk.h:
+
 C:/msys64/ucrt64/include/c++/14.1.0/memory:
 
 C:/msys64/ucrt64/include/stdint.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/mutex:
+
+C:/msys64/ucrt64/include/systemtopologyapi.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/numeric:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/x86gprintrin.h:
 
@@ -1604,11 +1768,45 @@ C:/msys64/ucrt64/include/c++/14.1.0/system_error:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/avx5124fmapsintrin.h:
 
+C:/msys64/ucrt64/include/c++/14.1.0/tr1/beta_function.tcc:
+
+C:/msys64/ucrt64/include/c++/14.1.0/tr1/ell_integral.tcc:
+
+D:/CodingShit/ChatServer/common/depend/asio/detail/win_iocp_overlapped_ptr.hpp:
+
+C:/msys64/ucrt64/include/c++/14.1.0/tr1/exp_integral.tcc:
+
+D:/CodingShit/ChatServer/common/depend/asio/buffer.hpp:
+
+C:/msys64/ucrt64/include/specstrings.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/tr1/hypergeometric.tcc:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/ammintrin.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/tr1/modified_bessel_func.tcc:
+
+C:/msys64/ucrt64/include/pshpack2.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/tr1/poly_hermite.tcc:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/avx512erintrin.h:
+
+D:/CodingShit/ChatServer/common/depend/asio/detail/win_iocp_null_buffers_op.hpp:
+
+C:/msys64/ucrt64/include/c++/14.1.0/tr1/poly_laguerre.tcc:
+
+D:/CodingShit/ChatServer/common/depend/asio/detail/select_interrupter.hpp:
+
+C:/msys64/ucrt64/include/c++/14.1.0/tr1/riemann_zeta.tcc:
+
+C:/msys64/ucrt64/include/wctype.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/tr1/special_function_util.h:
+
 D:/CodingShit/ChatServer/common/depend/asio/detail/signal_op.hpp:
 
 C:/msys64/ucrt64/include/c++/14.1.0/tuple:
-
-D:/CodingShit/ChatServer/common/depend/asio/cancellation_type.hpp:
 
 C:/msys64/ucrt64/include/c++/14.1.0/type_traits:
 
@@ -1632,13 +1830,17 @@ D:/CodingShit/ChatServer/common/depend/asio/associated_immediate_executor.hpp:
 
 C:/msys64/ucrt64/include/c++/14.1.0/utility:
 
-D:/CodingShit/ChatServer/common/depend/asio/detail/composed_work.hpp:
+D:/CodingShit/ChatServer/common/depend/asio/windows/basic_random_access_handle.hpp:
+
+C:/msys64/ucrt64/include/c++/14.1.0/valarray:
 
 C:/msys64/ucrt64/include/c++/14.1.0/version:
 
 C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/atomic_word.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/c++allocator.h:
+
+C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/time_members.h:
 
 C:/msys64/ucrt64/include/sec_api/stdlib_s.h:
 
@@ -1648,11 +1850,11 @@ C:/msys64/ucrt64/include/namespaceapi.h:
 
 D:/CodingShit/ChatServer/common/depend/asio/detail/impl/socket_ops.ipp:
 
+D:/CodingShit/ChatServer/common/depend/asio/detail/base_from_completion_cond.hpp:
+
 C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/c++locale.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/cetintrin.h:
-
-D:/CodingShit/ChatServer/common/depend/asio/detail/base_from_completion_cond.hpp:
 
 C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/ctype_base.h:
 
@@ -1670,9 +1872,9 @@ C:/msys64/ucrt64/include/sec_api/stralign_s.h:
 
 C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/gthr.h:
 
-D:/CodingShit/ChatServer/common/depend/asio/impl/consign.hpp:
+D:/CodingShit/ChatServer/common/depend/asio/detail/fenced_block.hpp:
 
-D:/CodingShit/ChatServer/common/depend/asio/completion_condition.hpp:
+C:/msys64/ucrt64/include/c++/14.1.0/x86_64-w64-mingw32/bits/messages_members.h:
 
 C:/msys64/ucrt64/include/concurrencysal.h:
 
@@ -1690,17 +1892,7 @@ D:/CodingShit/ChatServer/common/depend/asio/detail/winsock_init.hpp:
 
 C:/msys64/ucrt64/include/corecrt_startup.h:
 
-C:/msys64/ucrt64/include/corecrt_stdio_config.h:
-
 C:/msys64/ucrt64/include/crtdefs.h:
-
-D:/CodingShit/ChatServer/common/depend/asio/ip/resolver_base.hpp:
-
-D:/CodingShit/ChatServer/common/depend/asio/impl/executor.hpp:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/bmiintrin.h:
-
-C:/msys64/ucrt64/include/ctype.h:
 
 D:/CodingShit/ChatServer/common/depend/asio/detail/resolver_service_base.hpp:
 
@@ -1722,15 +1914,9 @@ C:/msys64/ucrt64/include/memoryapi.h:
 
 C:/msys64/ucrt64/include/fltwinerror.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/wmmintrin.h:
-
-C:/msys64/ucrt64/include/handleapi.h:
-
 C:/msys64/ucrt64/include/heapapi.h:
 
 C:/msys64/ucrt64/include/in6addr.h:
-
-C:/msys64/ucrt64/include/inaddr.h:
 
 C:/msys64/ucrt64/include/ioapiset.h:
 
@@ -1756,6 +1942,10 @@ C:/msys64/ucrt64/include/malloc.h:
 
 C:/msys64/ucrt64/include/mcx.h:
 
+D:/CodingShit/ChatServer/common/depend/asio/detail/executor_op.hpp:
+
+C:/msys64/ucrt64/include/math.h:
+
 D:/CodingShit/ChatServer/common/depend/asio/traits/execute_member.hpp:
 
 C:/msys64/ucrt64/include/minwinbase.h:
@@ -1764,11 +1954,11 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/prfchwintrin.h:
 
 C:/msys64/ucrt64/include/minwindef.h:
 
+D:/CodingShit/ChatServer/common/depend/asio/coroutine.hpp:
+
 C:/msys64/ucrt64/include/mswsock.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/avxvnniintrin.h:
-
-D:/CodingShit/ChatServer/common/depend/asio/coroutine.hpp:
 
 C:/msys64/ucrt64/include/winuser.h:
 
@@ -1776,15 +1966,9 @@ C:/msys64/ucrt64/include/namedpipeapi.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/uintrintrin.h:
 
-C:/msys64/ucrt64/include/poppack.h:
-
-D:/CodingShit/ChatServer/common/depend/asio/detail/consuming_buffers.hpp:
-
-D:/CodingShit/ChatServer/server/server.h:
+D:/CodingShit/ChatServer/common/depend/asio/detail/fd_set_adapter.hpp:
 
 C:/msys64/ucrt64/include/processtopologyapi.h:
-
-D:/CodingShit/ChatServer/common/depend/asio/detail/fd_set_adapter.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/basic_waitable_timer.hpp:
 
@@ -1804,13 +1988,9 @@ C:/msys64/ucrt64/include/psdk_inc/_xmitfile.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/sha512intrin.h:
 
-D:/CodingShit/ChatServer/common/depend/asio/deadline_timer.hpp:
-
 C:/msys64/ucrt64/include/psdk_inc/intrin-impl.h:
 
 C:/msys64/ucrt64/include/pshpack1.h:
-
-C:/msys64/ucrt64/include/pshpack2.h:
 
 D:/CodingShit/ChatServer/common/depend/asio/detail/scheduler_task.hpp:
 
@@ -1836,8 +2016,6 @@ C:/msys64/ucrt64/include/pthread_time.h:
 
 C:/msys64/ucrt64/include/pthread_unistd.h:
 
-C:/msys64/ucrt64/include/qos.h:
-
 D:/CodingShit/ChatServer/common/depend/asio/execution/context.hpp:
 
 C:/msys64/ucrt64/include/realtimeapiset.h:
@@ -1852,12 +2030,6 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/avx512vbmi2intrin.h:
 
 C:/msys64/ucrt64/include/sdkddkver.h:
 
-D:/CodingShit/ChatServer/common/depend/asio/detail/win_iocp_socket_service_base.hpp:
-
-D:/CodingShit/ChatServer/common/depend/asio/associated_executor.hpp:
-
-C:/msys64/ucrt64/include/sdks/_mingw_ddk.h:
-
 D:/CodingShit/ChatServer/common/depend/asio/impl/executor.ipp:
 
 C:/msys64/ucrt64/include/sec_api/stdio_s.h:
@@ -1869,12 +2041,6 @@ C:/msys64/ucrt64/include/securityappcontainer.h:
 C:/msys64/ucrt64/include/securitybaseapi.h:
 
 C:/msys64/ucrt64/include/signal.h:
-
-D:/CodingShit/ChatServer/common/depend/asio/detail/win_iocp_overlapped_ptr.hpp:
-
-D:/CodingShit/ChatServer/common/depend/asio/buffer.hpp:
-
-C:/msys64/ucrt64/include/specstrings.h:
 
 C:/msys64/ucrt64/include/stddef.h:
 
@@ -1898,19 +2064,15 @@ C:/msys64/ucrt64/include/sys/timeb.h:
 
 C:/msys64/ucrt64/include/sys/types.h:
 
-C:/msys64/ucrt64/include/systemtopologyapi.h:
-
 D:/CodingShit/ChatServer/common/depend/asio/execution/operation_state.hpp:
 
 C:/msys64/ucrt64/include/threadpoollegacyapiset.h:
 
-C:/msys64/ucrt64/include/time.h:
-
 D:/CodingShit/ChatServer/common/depend/asio/detail/buffered_stream_storage.hpp:
 
-C:/msys64/ucrt64/include/tvout.h:
+C:/msys64/ucrt64/include/time.h:
 
-C:/msys64/ucrt64/include/wctype.h:
+C:/msys64/ucrt64/include/tvout.h:
 
 D:/CodingShit/ChatServer/common/depend/asio/ip/address_v4.hpp:
 
@@ -1968,8 +2130,6 @@ D:/CodingShit/ChatServer/common/depend/asio/detail/std_fenced_block.hpp:
 
 C:/msys64/ucrt64/include/ws2tcpip.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/ammintrin.h:
-
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/amxbf16intrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/amxfp16intrin.h:
@@ -2003,8 +2163,6 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/avx512cdintrin.h:
 D:/CodingShit/ChatServer/common/depend/asio/associator.hpp:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/avx512dqintrin.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/avx512erintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/avx512fp16intrin.h:
 
@@ -2042,9 +2200,9 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/avxvnniint16intrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/avxvnniint8intrin.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/clwbintrin.h:
-
 D:/CodingShit/ChatServer/common/depend/asio/detail/bind_handler.hpp:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/clwbintrin.h:
 
 D:/CodingShit/ChatServer/common/depend/asio/traits/query_free.hpp:
 
@@ -2068,6 +2226,8 @@ D:/CodingShit/ChatServer/common/depend/asio/impl/read.hpp:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/fxsrintrin.h:
 
+D:/CodingShit/ChatServer/common/depend/nlohmann/json.hpp:
+
 D:/CodingShit/ChatServer/common/depend/asio/traits/start_member.hpp:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/keylockerintrin.h:
@@ -2078,9 +2238,9 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/mm_malloc.h:
 
 D:/CodingShit/ChatServer/common/depend/asio/impl/serial_port_base.ipp:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/mmintrin.h:
-
 D:/CodingShit/ChatServer/common/depend/asio/detail/conditionally_enabled_event.hpp:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/mmintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/movdirintrin.h:
 
@@ -2091,8 +2251,6 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/pmmintrin.h:
 D:/CodingShit/ChatServer/common/depend/asio/ip/impl/host_name.ipp:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/serializeintrin.h:
-
-D:/CodingShit/ChatServer/common/depend/asio/detail/atomic_count.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/impl/io_context.hpp:
 
@@ -2138,9 +2296,9 @@ D:/CodingShit/ChatServer/common/depend/asio/any_completion_handler.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/detail/regex_fwd.hpp:
 
-D:/CodingShit/ChatServer/common/depend/asio/any_io_executor.hpp:
-
 D:/CodingShit/ChatServer/common/depend/asio/consign.hpp:
+
+D:/CodingShit/ChatServer/common/depend/asio/any_io_executor.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/append.hpp:
 
@@ -2149,10 +2307,6 @@ D:/CodingShit/ChatServer/common/depend/asio/detail/impl/win_iocp_io_context.hpp:
 D:/CodingShit/ChatServer/common/depend/asio/associated_allocator.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/awaitable.hpp:
-
-D:/CodingShit/ChatServer/common/depend/asio/detail/bulk_executor_op.hpp:
-
-D:/CodingShit/ChatServer/common/depend/asio/detail/config.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/basic_datagram_socket.hpp:
 
@@ -2178,17 +2332,39 @@ D:/CodingShit/ChatServer/common/depend/asio/execution/start.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/bind_executor.hpp:
 
+D:/CodingShit/ChatServer/common/depend/asio/buffered_stream.hpp:
+
 D:/CodingShit/ChatServer/common/depend/asio/buffered_stream_fwd.hpp:
+
+D:/CodingShit/ChatServer/common/depend/asio/impl/write.hpp:
+
+D:/CodingShit/ChatServer/common/depend/asio/buffered_write_stream.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/buffers_iterator.hpp:
 
+D:/CodingShit/ChatServer/common/depend/asio/cancellation_signal.hpp:
+
 D:/CodingShit/ChatServer/common/depend/asio/cancellation_state.hpp:
+
+D:/CodingShit/ChatServer/common/depend/asio/cancellation_type.hpp:
+
+D:/CodingShit/ChatServer/common/depend/asio/co_spawn.hpp:
+
+D:/CodingShit/ChatServer/common/depend/asio/impl/consign.hpp:
+
+D:/CodingShit/ChatServer/common/depend/asio/completion_condition.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/compose.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/connect.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/connect_pipe.hpp:
+
+D:/CodingShit/ChatServer/common/depend/asio/deadline_timer.hpp:
+
+D:/CodingShit/ChatServer/common/depend/asio/io_context_strand.hpp:
+
+D:/CodingShit/ChatServer/common/depend/asio/deferred.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/impl/use_future.hpp:
 
@@ -2200,17 +2376,31 @@ D:/CodingShit/ChatServer/common/depend/asio/post.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/detail/assert.hpp:
 
+D:/CodingShit/ChatServer/common/depend/asio/detail/atomic_count.hpp:
+
 D:/CodingShit/ChatServer/common/depend/asio/detail/base_from_cancellation_state.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/stream_file.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/detail/blocking_executor_op.hpp:
 
+D:/CodingShit/ChatServer/common/depend/asio/detail/buffer_resize_guard.hpp:
+
 D:/CodingShit/ChatServer/common/depend/asio/detail/impl/null_event.ipp:
 
 D:/CodingShit/ChatServer/common/depend/asio/detail/buffer_sequence_adapter.hpp:
 
+D:/CodingShit/ChatServer/common/depend/asio/detail/config.hpp:
+
+D:/CodingShit/ChatServer/common/depend/asio/detail/bulk_executor_op.hpp:
+
+D:/CodingShit/ChatServer/common/depend/asio/detail/win_iocp_handle_write_op.hpp:
+
+D:/CodingShit/ChatServer/common/depend/asio/detail/call_stack.hpp:
+
 D:/CodingShit/ChatServer/common/depend/asio/detail/completion_handler.hpp:
+
+D:/CodingShit/ChatServer/common/depend/asio/detail/composed_work.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/detail/concurrency_hint.hpp:
 
@@ -2220,15 +2410,9 @@ D:/CodingShit/ChatServer/common/depend/asio/detail/cstdint.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/detail/date_time_fwd.hpp:
 
-D:/CodingShit/ChatServer/common/depend/asio/detail/deadline_timer_service.hpp:
-
 D:/CodingShit/ChatServer/common/depend/asio/detail/event.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/detail/executor_function.hpp:
-
-D:/CodingShit/ChatServer/common/depend/asio/detail/executor_op.hpp:
-
-D:/CodingShit/ChatServer/common/depend/asio/detail/fenced_block.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/detail/functional.hpp:
 
@@ -2282,8 +2466,6 @@ D:/CodingShit/ChatServer/common/depend/asio/detail/impl/win_iocp_file_service.ip
 
 D:/CodingShit/ChatServer/common/depend/asio/detail/impl/win_iocp_handle_service.ipp:
 
-D:/CodingShit/ChatServer/common/depend/asio/detail/impl/win_iocp_io_context.ipp:
-
 D:/CodingShit/ChatServer/common/depend/asio/detail/impl/win_iocp_serial_port_service.ipp:
 
 D:/CodingShit/ChatServer/common/depend/asio/detail/impl/win_iocp_socket_service_base.ipp:
@@ -2325,8 +2507,6 @@ D:/CodingShit/ChatServer/common/depend/asio/redirect_error.hpp:
 D:/CodingShit/ChatServer/common/depend/asio/executor.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/detail/non_const_lvalue.hpp:
-
-D:/CodingShit/ChatServer/common/depend/asio/detail/null_event.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/detail/thread_context.hpp:
 
@@ -2371,8 +2551,6 @@ D:/CodingShit/ChatServer/common/depend/asio/detail/scoped_lock.hpp:
 D:/CodingShit/ChatServer/common/depend/asio/execution/any_executor.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/detail/scoped_ptr.hpp:
-
-D:/CodingShit/ChatServer/common/depend/asio/detail/select_interrupter.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/detail/select_reactor.hpp:
 
@@ -2426,8 +2604,6 @@ D:/CodingShit/ChatServer/common/depend/asio/detail/win_iocp_socket_accept_op.hpp
 
 D:/CodingShit/ChatServer/common/depend/asio/detail/win_iocp_io_context.hpp:
 
-D:/CodingShit/ChatServer/common/depend/asio/detail/win_iocp_null_buffers_op.hpp:
-
 D:/CodingShit/ChatServer/common/depend/asio/detail/win_iocp_operation.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/detail/win_iocp_overlapped_op.hpp:
@@ -2447,10 +2623,6 @@ D:/CodingShit/ChatServer/common/depend/asio/detail/win_thread.hpp:
 D:/CodingShit/ChatServer/common/depend/asio/detail/win_iocp_socket_recvfrom_op.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/detail/win_iocp_socket_recvmsg_op.hpp:
-
-D:/CodingShit/ChatServer/common/depend/asio/generic/raw_protocol.hpp:
-
-D:/CodingShit/ChatServer/common/depend/asio/detail/win_iocp_socket_send_op.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/detail/win_iocp_socket_service.hpp:
 
@@ -2501,10 +2673,6 @@ D:/CodingShit/ChatServer/common/depend/asio/execution/scheduler.hpp:
 D:/CodingShit/ChatServer/common/networking.h:
 
 D:/CodingShit/ChatServer/common/depend/asio/execution/sender.hpp:
-
-D:/CodingShit/ChatServer/common/depend/asio/traits/bulk_execute_member.hpp:
-
-D:/CodingShit/ChatServer/common/depend/asio/execution/set_value.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/execution/submit.hpp:
 
@@ -2565,8 +2733,6 @@ D:/CodingShit/ChatServer/common/depend/asio/impl/serial_port_base.hpp:
 D:/CodingShit/ChatServer/common/depend/asio/impl/system_context.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/impl/system_context.ipp:
-
-D:/CodingShit/ChatServer/common/depend/asio/impl/system_executor.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/write.hpp:
 
@@ -2648,8 +2814,6 @@ D:/CodingShit/ChatServer/common/depend/asio/version.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/prefer.hpp:
 
-D:/CodingShit/ChatServer/common/depend/asio/prepend.hpp:
-
 D:/CodingShit/ChatServer/common/depend/asio/random_access_file.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/read_until.hpp:
@@ -2692,14 +2856,8 @@ D:/CodingShit/ChatServer/common/depend/asio/use_awaitable.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/wait_traits.hpp:
 
-D:/CodingShit/ChatServer/common/depend/asio/windows/basic_object_handle.hpp:
-
-D:/CodingShit/ChatServer/common/depend/asio/windows/basic_random_access_handle.hpp:
-
 D:/CodingShit/ChatServer/common/depend/asio/windows/overlapped_handle.hpp:
 
 D:/CodingShit/ChatServer/common/depend/asio/windows/stream_handle.hpp:
 
 D:/CodingShit/ChatServer/common/server.h:
-
-D:/CodingShit/ChatServer/server/server.cpp:

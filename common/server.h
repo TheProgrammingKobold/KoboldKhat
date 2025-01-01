@@ -16,6 +16,8 @@
 #include <mutex>
 #include <iostream>
 
+#include <nlohmann/json.hpp>
+
 struct ClientSession 
 {
 	std::shared_ptr<asio::ip::tcp::socket> socket;
@@ -34,6 +36,12 @@ struct ClientSession
 			return false;
 		}
 	}
+};
+
+enum Commands
+{
+	NONE,
+	DM,
 };
 
 class Server 
@@ -56,6 +64,7 @@ private:
 
 	void removeClient(std::shared_ptr<ClientSession> client);
 
+	void handleMessage(const nlohmann::json& jsonMessage, const std::shared_ptr<ClientSession>& client);
 
 private:	
 

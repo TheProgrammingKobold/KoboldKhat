@@ -6,6 +6,8 @@ D:/CodingShit/ChatServer/build/common/CMakeFiles/rebuild_cache.dir
 D:/CodingShit/ChatServer/build/server/CMakeFiles/server.dir
 D:/CodingShit/ChatServer/build/server/CMakeFiles/edit_cache.dir
 D:/CodingShit/ChatServer/build/server/CMakeFiles/rebuild_cache.dir
+D:/CodingShit/ChatServer/build/client/CMakeFiles/glad.dir
+D:/CodingShit/ChatServer/build/client/CMakeFiles/imgui.dir
 D:/CodingShit/ChatServer/build/client/CMakeFiles/client.dir
 D:/CodingShit/ChatServer/build/client/CMakeFiles/edit_cache.dir
 D:/CodingShit/ChatServer/build/client/CMakeFiles/rebuild_cache.dir

@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/CodingShit/ChatServer/client/client.cpp" "client/CMakeFiles/client.dir/client.cpp.obj" "gcc" "client/CMakeFiles/client.dir/client.cpp.obj.d"
   "D:/CodingShit/ChatServer/client/main.cpp" "client/CMakeFiles/client.dir/main.cpp.obj" "gcc" "client/CMakeFiles/client.dir/main.cpp.obj.d"
   )
 

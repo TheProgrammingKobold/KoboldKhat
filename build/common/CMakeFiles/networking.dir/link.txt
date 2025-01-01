@@ -1,2 +1,2 @@
-C:\msys64\ucrt64\bin\ar.exe qc libnetworking.a CMakeFiles/networking.dir/client.cpp.obj CMakeFiles/networking.dir/server.cpp.obj
+C:\msys64\ucrt64\bin\ar.exe qc libnetworking.a CMakeFiles/networking.dir/Logging.cpp.obj CMakeFiles/networking.dir/client.cpp.obj CMakeFiles/networking.dir/server.cpp.obj
 C:\msys64\ucrt64\bin\ranlib.exe libnetworking.a

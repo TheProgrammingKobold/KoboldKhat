@@ -142,6 +142,32 @@ server/fast:
 .PHONY : server/fast
 
 #=============================================================================
+# Target rules for targets named glad
+
+# Build rule for target.
+glad: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glad
+.PHONY : glad
+
+# fast build rule for target.
+glad/fast:
+	$(MAKE) $(MAKESILENT) -f client\CMakeFiles\glad.dir\build.make client/CMakeFiles/glad.dir/build
+.PHONY : glad/fast
+
+#=============================================================================
+# Target rules for targets named imgui
+
+# Build rule for target.
+imgui: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 imgui
+.PHONY : imgui
+
+# fast build rule for target.
+imgui/fast:
+	$(MAKE) $(MAKESILENT) -f client\CMakeFiles\imgui.dir\build.make client/CMakeFiles/imgui.dir/build
+.PHONY : imgui/fast
+
+#=============================================================================
 # Target rules for targets named client
 
 # Build rule for target.
@@ -163,6 +189,8 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... client
+	@echo ... glad
+	@echo ... imgui
 	@echo ... networking
 	@echo ... server
 .PHONY : help

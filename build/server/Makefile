@@ -153,30 +153,6 @@ main.cpp.s:
 	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f server\CMakeFiles\server.dir\build.make server/CMakeFiles/server.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-server.obj: server.cpp.obj
-.PHONY : server.obj
-
-# target to build an object file
-server.cpp.obj:
-	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f server\CMakeFiles\server.dir\build.make server/CMakeFiles/server.dir/server.cpp.obj
-.PHONY : server.cpp.obj
-
-server.i: server.cpp.i
-.PHONY : server.i
-
-# target to preprocess a source file
-server.cpp.i:
-	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f server\CMakeFiles\server.dir\build.make server/CMakeFiles/server.dir/server.cpp.i
-.PHONY : server.cpp.i
-
-server.s: server.cpp.s
-.PHONY : server.s
-
-# target to generate assembly for a file
-server.cpp.s:
-	cd /d D:\CodingShit\ChatServer\build && $(MAKE) $(MAKESILENT) -f server\CMakeFiles\server.dir\build.make server/CMakeFiles/server.dir/server.cpp.s
-.PHONY : server.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -189,9 +165,6 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... server.obj
-	@echo ... server.i
-	@echo ... server.s
 .PHONY : help
 
 
