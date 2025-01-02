@@ -79,11 +79,26 @@ private:
 			ImGui_ImplGlfw_NewFrame();
 			ImGui::NewFrame();
 
+			if (m_client)
+			{
+				while (!m_client->isMessageQueueEmpty())
+				{
+					std::string messBuffer = m_client->popMessageFromQueue();
+
+					m_messages.push_back(messBuffer);
+				}
+			}
+
+
 			switch (appState)
 			{
 				case AppState::CONNECT:
 				{
-					ImGui::Begin("Connect to Server");
+					// This is to make it fill the whole window 
+					ImGui::SetNextWindowPos(ImVec2(0,0));
+					ImGui::SetNextWindowSize(ImGui::GetIO().DisplaySize);
+					
+					ImGui::Begin("Connect to Server", nullptr, ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoMove);
 					ImGui::InputText("IP Address", ip, sizeof(ip));
 					ImGui::InputInt("Port", &port);
 					ImGui::InputText("Username", username, sizeof(username));
@@ -101,38 +116,74 @@ private:
 
 				case AppState::CHAT:
 				{
-					ImGui::Begin("Chat");
+					ImGui::SetNextWindowPos(ImVec2(0,0));
+					ImGui::SetNextWindowSize(ImGui::GetIO().DisplaySize);
+					ImGui::Begin("Main Window", nullptr, ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoMove);
+					
+						
 					{
-						ImGui::BeginChild("Messages", ImVec2(0, -30), true);
+						ImGui::BeginChild("Messages", ImVec2(0, ImGui::GetContentRegionAvail().y - 30), true, ImGuiWindowFlags_AlwaysVerticalScrollbar);
 
-						while (!m_client->isMessageQueueEmpty())
-						{
-							std::string messBuffer = m_client->popMessageFromQueue();
-
-							m_messages.push_back(messBuffer);
-						}
-
+						bool atBottom = ImGui::GetScrollY() >= ImGui::GetScrollMaxY();
 						for (const auto& message : m_messages)
 						{
-							ImGui::TextUnformatted(message.c_str());
+							ImGui::TextWrapped("%s", message.c_str());
 						}
 
-						ImGui::EndChild();
+						if (atBottom) ImGui::SetScrollHereY(1.0f);	
 
-						ImGui::InputText("Message", messageBuffer, sizeof(messageBuffer));
+						ImGui::EndChild();
+					}
+					
+					{
+						// Needed to set the focus to the text input box so you don't have to click
+						if (ImGui::IsWindowAppearing())
+						{
+							ImGui::SetItemDefaultFocus();
+							ImGui::SetKeyboardFocusHere();
+						}
+
+						if (ImGui::InputText("Message", messageBuffer, sizeof(messageBuffer), ImGuiInputTextFlags_EnterReturnsTrue))
+						{
+							// Checks if the message is empty or not before sending message
+							if (std::strlen(messageBuffer) > 0 && std::any_of(messageBuffer, messageBuffer + std::strlen(messageBuffer), [](char c) { return  !std::isspace(c); }))
+							{
+								m_client->sendMessage(messageBuffer);
+
+								std::string tempMsg = "'";
+								tempMsg += username;
+								tempMsg += "': ";
+								tempMsg += messageBuffer;
+
+								m_messages.push_back(messageBuffer);
+
+								messageBuffer[0] = '\0';
+							}
+
+							// Puts the window in focus after pressing enter
+							ImGui::SetKeyboardFocusHere(-1);
+						}
+
+						
+
 						ImGui::SameLine();
 						if (ImGui::Button("Send"))
 						{
-							m_client->sendMessage(messageBuffer);
+							
+							if (std::strlen(messageBuffer) > 0 && std::any_of(messageBuffer, messageBuffer + std::strlen(messageBuffer), [](char c) { return  !std::isspace(c); }))
+							{
+								m_client->sendMessage(messageBuffer);
 
-							std::string tempMsg = "'";
-							tempMsg += username;
-							tempMsg += "': ";
-							tempMsg += messageBuffer;
+								std::string tempMsg = "'";
+								tempMsg += username;
+								tempMsg += "': ";
+								tempMsg += messageBuffer;
 
-							m_messages.push_back(messageBuffer);
+								m_messages.push_back(messageBuffer);
 
-							messageBuffer[0] = '\0';
+								messageBuffer[0] = '\0';
+							}
+							ImGui::SetKeyboardFocusHere(-1);
 						}
 					}
 					ImGui::End();
@@ -170,38 +221,6 @@ private:
 int main()
 {
 	ClientApp app;
-
-
-	/*
-	std::cout << "Please type the user name you'd like to use before connecting to the server!!\n";
-
-	std::string username;
-	std::getline(std::cin, username);
-
-	try 
-	{
-		asio::io_context context;
-
-		Client client(context, "127.0.0.1", 12345, username);
-
-		client.connect();
-
-
-		std::string message;
-		
-		while (client.isConnected())
-		{
-			std::getline(std::cin, message);
-			if (message == "/quit") break;
-			client.sendMessage(message);
-		}
-		
-	}
-	catch (const std::exception& e) 
-	{
-		std::cerr << "ERROR: " << e.what() << '\n';
-	}
-	*/
 
 	return 0;
 }
